@@ -1,0 +1,62 @@
+/**
+* The input of the extends ALU is instruction[9] and x[16],y[16].
+* the output is define as follows:
+* If instruction[7..8] equals 1 the the output is exactly as the ALU.
+* Where instruction[5]=zx,instruction[4]=nx,...,instruction[0]=no.
+* If instruction[7] equals 0 the output will be x*y and disregard the rest
+* of the instruction.
+*
+* If instruction[8] equals 0 the output will be shift.
+* Then, if instruction[4] equals 0 it will return shift of y otherwise shift
+* of x, moreover if instruction[5] equals 0 it will return shift right
+* otherwise shift left.
+**/
+
+CHIP ExtendAlu {
+    IN x[16],y[16],instruction[9];
+    OUT out[16],zr,ng;
+
+    PARTS:
+
+    // If instruction[7..8] equals 1 then the output is exactly as the ALU.
+    ALU (x=x, y=y, out=ALUOut,
+        zx=instruction[5],
+        nx=instruction[4],
+        zy=instruction[3],
+        ny=instruction[2],
+        f=instruction[1],
+        no=instruction[0],
+
+        zr=zrOut,
+        ng=ngOut);
+
+    // Calculate x*y If instruction[7] equals 0.
+    Mul (a=x, b=y, out=XMulY);
+
+    // Shift x.
+    ShiftRight(in=x, out=ShiftRightX);
+    ShiftLeft(in=x, out=ShiftLeftX);
+
+    // Shift y.
+    ShiftRight(in=y, out=ShiftRightY);
+    ShiftLeft(in=y, out=ShiftLeftY);
+
+    // Shift y/x to right/left based on instruction[4] and instruction[5].
+    Mux4Way16(a=ShiftRightY, b=ShiftRightX, c=ShiftLeftY, d=ShiftLeftX, sel=instruction[4..5], out=ShiftOut);
+
+    // If instruction[7] equals 0 the output will be x*y.
+    // If instruction[8] equals 0 the output will be shift.
+    // If instruction[7..8] equals 1 the the output is exactly as the ALU.
+    // 1 if (out<0),  else 0.
+    Mux4Way16 (a=XMulY, b=ShiftOut, c=XMulY, d=ALUOut, sel=instruction[7..8],
+       out[15]=ng,
+       out[0..7]=Or1,
+       out[8..15]=Or2,
+       out=out);
+
+    // Sets zr to 1 if (out==0), else 0.
+    Or8Way(in=Or1, out=Or1Out);
+    Or8Way(in=Or2, out=Or2Out);
+    Or(a=Or1Out, b=Or2Out, out=nzr);
+    Not(in=nzr, out=zr);
+}

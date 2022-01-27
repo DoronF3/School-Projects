@@ -1,0 +1,33 @@
+===============================================================================
+Doron
+Liron
+===============================================================================
+
+                           Project 2 - HDL Files
+                           ----------------------- 
+  
+
+Submitted Files
+---------------
+
+README - This file.
+
+HalfAdder - Half Adder.
+
+FullAdder - Full Adder.
+
+Add16 - 16-bit Adder.
+
+Inc16 - 16-bit incrementer.
+
+ALU - Arithmetic Logic Unit.
+
+ShiftLeft - The chip will multiply by 2 its input and won't change their sign.
+
+ShiftRight - The chip will divide by 2 its input, won't change their sign and take care of odd numbers.
+
+Mul - The chip will multiply 2 numbers and handle overflows
+
+Remarks
+-------
+* The chips were implemented by using NAND gates and the other chips. cool!

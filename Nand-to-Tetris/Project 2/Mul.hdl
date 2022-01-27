@@ -1,0 +1,57 @@
+CHIP Mul{
+    IN a[16], b[16];
+    OUT out[16];
+
+    PARTS:
+	//Getting all the shifts ready
+	ShiftLeft(in=a,out=sh1);
+	ShiftLeft(in=sh1,out=sh2);
+	ShiftLeft(in=sh2,out=sh3);
+	ShiftLeft(in=sh3,out=sh4);
+	ShiftLeft(in=sh4,out=sh5);
+	ShiftLeft(in=sh5,out=sh6);
+	ShiftLeft(in=sh6,out=sh7);
+	ShiftLeft(in=sh7,out=sh8);
+	ShiftLeft(in=sh8,out=sh9);
+	ShiftLeft(in=sh9,out=sh10);
+	ShiftLeft(in=sh10,out=sh11);
+	ShiftLeft(in=sh11,out=sh12);
+	ShiftLeft(in=sh12,out=sh13);
+	ShiftLeft(in=sh13,out=sh14);
+	ShiftLeft(in=sh14,out=sh15);
+	
+	//According to bits multipication either we need to put zero`s or the same number shifted
+	Mux16(a=false,b=a,sel=b[0],out=tmp0);
+	Mux16(a=false,b=sh1,sel=b[1],out=tmp1);
+	Mux16(a=false,b=sh2,sel=b[2],out=tmp2);
+	Mux16(a=false,b=sh3,sel=b[3],out=tmp3);
+	Mux16(a=false,b=sh4,sel=b[4],out=tmp4);
+	Mux16(a=false,b=sh5,sel=b[5],out=tmp5);
+	Mux16(a=false,b=sh6,sel=b[6],out=tmp6);
+	Mux16(a=false,b=sh7,sel=b[7],out=tmp7);
+	Mux16(a=false,b=sh8,sel=b[8],out=tmp8);
+	Mux16(a=false,b=sh9,sel=b[9],out=tmp9);
+	Mux16(a=false,b=sh10,sel=b[10],out=tmp10);
+	Mux16(a=false,b=sh11,sel=b[11],out=tmp11);
+	Mux16(a=false,b=sh12,sel=b[12],out=tmp12);
+	Mux16(a=false,b=sh13,sel=b[13],out=tmp13);
+	Mux16(a=false,b=sh14,sel=b[14],out=tmp14);
+	Mux16(a=false,b=sh15,sel=b[15],out=tmp15);
+	
+	//now we need to sum up  all the tmp results
+	Add16(a=tmp0,b=tmp1,out=sumA0);
+	Add16(a=tmp2,b=tmp3,out=sumA1);
+	Add16(a=tmp4,b=tmp5,out=sumA2);
+	Add16(a=tmp6,b=tmp7,out=sumA3);
+	Add16(a=tmp8,b=tmp9,out=sumA4);
+	Add16(a=tmp10,b=tmp11,out=sumA5);
+	Add16(a=tmp12,b=tmp13,out=sumA6);
+	Add16(a=tmp14,b=tmp15,out=sumA7);
+	Add16(a=sumA0,b=sumA1,out=sumB0);
+	Add16(a=sumA2,b=sumA3,out=sumB1);
+	Add16(a=sumA4,b=sumA5,out=sumB2);
+	Add16(a=sumA6,b=sumA7,out=sumB3);
+	Add16(a=sumB0,b=sumB1,out=sumC0);
+	Add16(a=sumB2,b=sumB3,out=sumC1);
+	Add16(a=sumC0,b=sumC1,out=out);
+}

@@ -1,0 +1,29 @@
+===============================================================================
+Doron
+Liron
+===============================================================================
+
+                           Project 6 - Assembler
+                           ----------------------- 
+  
+
+Submitted Files
+---------------
+
+README - This file.
+
+Main - The main program that is in charge of translating the asm files.
+
+Code - A class that creates all the dictionaries of all the commands.
+
+Parser - A class that takes each line of code and translate it based on what it encounters.
+
+SymbolTable - A class that creates the basic symbol table and adds all the new symbols to it.
+
+Assembler - A file that will allow running the program without language consideration.
+
+Makefile - A make file for the program.
+
+Remarks
+-------
+* The program was implemented by using python 3. cool!
