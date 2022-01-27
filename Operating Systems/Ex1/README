@@ -1,0 +1,28 @@
+liron.menda, magidoro
+Liron Menda 206072985, Doron Firman 319091294
+EX: 1
+
+FILES:
+
+README - This file.
+
+MAKEFILE - The file to run the project.
+
+OSM.cpp - The library with the implemented functions to test time.
+
+Time mesure graph - A garph that shows the measurments taken in the different machines. 
+
+REMARKS:
+
+ANSWERS:
+
+Q1:
+The programm recievs an argument from the user and a writes the given argument to the given file.
+Followed by creating a directory named "Welcome", inside it creates another directory named "To",
+after which it opens a file in the "To" directory named "OS2020" to which she writes:
+"liron.menda
+If you haven't read the course guidelines yet --- do it right now!
+lir"
+liron.menda is the user name of the user running the program, and lir is the argument given.
+After doing that the program closes the file and deletes it, followed by removeing both directories
+first removing "To" and then "Welcome", and then the program finishes its work.
