@@ -215,7 +215,7 @@ void shuffle(ThreadContext *context)
 			IntermediateVec *t_vec = threadcontxt->at(i)->inter_vec;
 			try
 			{
-                threadcontxt->at(i)->mutex_inter_vec.lock();
+                		threadcontxt->at(i)->mutex_inter_vec.lock();
 			} catch (std::system_error &e)
 			{
 				std::cerr << SYSTEM_ERR << MUTEX_ERR << std::endl;
@@ -235,7 +235,7 @@ void shuffle(ThreadContext *context)
 				}
 				t_vec->clear();
 			}
-            threadcontxt->at(i)->mutex_inter_vec.unlock();
+                threadcontxt->at(i)->mutex_inter_vec.unlock();
 		}
 	}
 	context->barrier->barrier();
