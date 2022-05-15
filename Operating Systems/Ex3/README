@@ -17,17 +17,3 @@ fileWordCounter comparison - The picture of the time it takes to run the FileWor
 The hardware used to do the measurmnets are: cpu 4, i5-6600.
 We have seen that adding several threads reduces the amount of time taken to do the job, but at a certain point adding more threads 
 almost doesnt change the time.
-
-REMARKS:
-
-ANSWERS:
-
-Q1: The optimal number of kernal level threads for foo is the number of cores we have.
-The reason for this being how expensive it is to switch between kernel level threads,
-and they dont neew to be synchronized.
-
-Q2.1: The number of lines that will be printed is n^2.
-
-Q2.2: The number of options we have for the order of the printed lines is (n!)^2.
-
-
