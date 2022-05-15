@@ -87,7 +87,7 @@ public:
     }
 
     /**
-     * A method to swap between to vectors.
+     * A method to swap between two vectors.
      * @param first The given vector to receive values.
      * @param second The given vector to copy.
      */
