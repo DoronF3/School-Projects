@@ -1,8 +1,8 @@
 # Data Science Final Project Repository
 
-Welcome to the Data Science Final Project repository! This repository contains the files related to the final project of the Data Science course. The project focuses on [briefly describe the project's main objective or topic]. Here's a brief overview of the files included:
+Welcome to the Data Science Final Project repository! This repository contains the files related to the final project of the Data Science course. The project focuses on understanding what impacts the number of peak concurrent users (CCU) of games and software on the Steam platform. Here's a brief overview of the files included:
 
-- `Data Science Final Project.pptx`: This PowerPoint presentation file contains the slides used for the final project presentation. It summarizes the key findings, insights, methodologies, and results of the data analysis conducted as part of the project. The presentation provides a visual representation of the project's outcomes and is intended to be shared with stakeholders or classmates.
+- `Data Science Final Project.pptx`: This PowerPoint presentation file contains the slides used for the final project presentation. It summarizes the key findings, insights, methodologies, and results of the data analysis conducted as part of the project. The presentation provides a visual representation of the project's outcomes and is intended to be shared with stakeholders.
 
 - `Data Science Final.docx`: This Word document file contains the detailed written report of the final project. It elaborates on the project's background, objectives, data sources, methodology, analysis techniques, results, and conclusions. The document provides a comprehensive narrative of the entire project, catering to readers who prefer a textual and structured format.
 
@@ -26,8 +26,6 @@ git clone https://github.com/your-username/Data-science.git
 
 ## Contact
 
-If you have any questions, suggestions, or feedback related to this repository or the final project, you can reach out to [your email address or preferred contact method].
+If you have any questions, suggestions, or feedback related to this repository or the final project, you can reach out to doron.firman@mail.huji.ac.il.
 
 Happy coding and data analyzing!
-
-[Optional: Additional sections such as "Project Background," "Data Sources," "Methodology," "Results," "Conclusion," etc., can be added to provide more context and information about the project.]
