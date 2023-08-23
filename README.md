@@ -76,7 +76,7 @@ This repository contains a collection of my school projects from various courses
     - Last Year
 
 - **README**
-  - [README](Operating%20Systems/README.md)
+  - [README](Operating%20Systems/README.md) (Details about each excersie)
 
 ### VLVector
 
