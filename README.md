@@ -77,6 +77,20 @@ This repository contains a collection of my school projects from various courses
 
 - **README**
   - [README](Operating%20Systems/README.md) (Details about each excersie)
+ 
+### Operating Systems Exercises
+
+This directory contains a collection of exercises related to Operating Systems course projects. Each exercise focuses on different concepts and challenges in the field of operating systems.
+
+- **[Ex1](Operating%20Systems/Ex1)**: Memory Allocation Strategies
+
+- **[Ex2](Operating%20Systems/Ex2)**: Multithreading and Synchronization
+
+- **[Ex3](Operating%20Systems/Ex3)**: Parallel Processing and MapReduce
+
+- **[Ex4](Operating%20Systems/Ex4)**: Virtual Memory Management
+
+- **[README](Operating%20Systems/README.md)**: Details about each excersie
 
 ### VLVector
 
