@@ -43,8 +43,10 @@ This repository contains a collection of my school projects from various courses
 
 - **Ex1**
   - [Ex1 Directory](Operating%20Systems/Ex1)
-    - [Update README](Operating%20Systems/Ex1/README.md)
-    - (Files for Ex1)
+    - [Makefile](Operating%20Systems/Ex1/Makefile)
+    - [README](Operating%20Systems/Ex1/README.md)
+    - [Time measure.png](Operating%20Systems/Ex1/Time%20measure.png)
+    - [osm.cpp](Operating%20Systems/Ex1/osm.cpp)
     - Last Year
 
 - **Ex2**
