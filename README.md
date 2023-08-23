@@ -41,9 +41,28 @@ This repository contains a collection of my school projects from various courses
 
 ### Operating Systems
 
-- **Last Year**
-  - [Project Name](Operating%20Systems/Last%20Year/Project%20Name)
-    - [MapReduceFramework.cpp](Operating%20Systems/Last%20Year/Project%20Name/MapReduceFramework.cpp)
+- **Ex1**
+  - [Ex1 Directory](Operating%20Systems/Ex1)
+    - [Update README](Operating%20Systems/Ex1/README.md)
+    - (Files for Ex1)
+    - Last Year
+
+- **Ex2**
+  - [Ex2 Directory](Operating%20Systems/Ex2)
+    - [Update README](Operating%20Systems/Ex2/README.md)
+    - (Files for Ex2)
+    - Last Year
+
+- **Ex3**
+  - [Ex3 Directory](Operating%20Systems/Ex3)
+    - [Update MapReduceFramework.cpp](Operating%20Systems/Ex3/MapReduceFramework.cpp)
+    - Last Year
+
+- **Ex4**
+  - [Ex4 Directory](Operating%20Systems/Ex4)
+    - [Update README](Operating%20Systems/Ex4/README.md)
+    - (Files for Ex4)
+    - Last Year
 
 ### VLVector
 
