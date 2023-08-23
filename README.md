@@ -51,19 +51,28 @@ This repository contains a collection of my school projects from various courses
 
 - **Ex2**
   - [Ex2 Directory](Operating%20Systems/Ex2)
-    - [Update README](Operating%20Systems/Ex2/README.md)
-    - (Files for Ex2)
+    - [Makefile](Operating%20Systems/Ex2/Makefile)
+    - [README](Operating%20Systems/Ex2/README.md)
+    - [Thread.cpp](Operating%20Systems/Ex2/Thread.cpp)
+    - [Thread.h](Operating%20Systems/Ex2/Thread.h)
+    - [uthreads.cpp](Operating%20Systems/Ex2/uthreads.cpp)
     - Last Year
 
 - **Ex3**
   - [Ex3 Directory](Operating%20Systems/Ex3)
-    - [Update MapReduceFramework.cpp](Operating%20Systems/Ex3/MapReduceFramework.cpp)
+    - [Barrier.cpp](Operating%20Systems/Ex3/Barrier.cpp)
+    - [Barrier.h](Operating%20Systems/Ex3/Barrier.h)
+    - [Makefile](Operating%20Systems/Ex3/Makefile)
+    - [MapReduceFramework.cpp](Operating%20Systems/Ex3/MapReduceFramework.cpp)
+    - [README](Operating%20Systems/Ex3/README.md)
+    - [fileWordCounter_comparison.png](Operating%20Systems/Ex3/fileWordCounter_comparison.png)
     - Last Year
 
 - **Ex4**
   - [Ex4 Directory](Operating%20Systems/Ex4)
-    - [Update README](Operating%20Systems/Ex4/README.md)
-    - (Files for Ex4)
+    - [Makefile](Operating%20Systems/Ex4/Makefile)
+    - [README](Operating%20Systems/Ex4/README.md)
+    - [VirtualMemory.cpp](Operating%20Systems/Ex4/VirtualMemory.cpp)
     - Last Year
 
 ### VLVector
