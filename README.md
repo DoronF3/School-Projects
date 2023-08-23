@@ -47,9 +47,9 @@ This repository contains a collection of my school projects from various courses
 
 ### VLVector
 
-- [Project Name](VLVector/Project%20Name)
-  - [Source.cpp](VLVector/Project%20Name/Source.cpp)
-  - [Header.h](VLVector/Project%20Name/Header.h)
+- [VLVector](VLVector)
+  - [VLVector.hpp](VLVector/VLVector.hpp)
+  - [README.md](VLVector/README.md) (Details about VLVector)
 
 ## License
 
