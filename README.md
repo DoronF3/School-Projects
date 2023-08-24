@@ -11,6 +11,8 @@ This repository contains a collection of my school projects from various courses
     - [File1.cpp](C%26C%2B%2B/Last%20Year/Project%20Name/File1.cpp)
     - [File2.h](C%26C%2B%2B/Last%20Year/Project%20Name/File2.h)
 
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `C++`
+
 ### Data Bases
 
 - **Last Year**
@@ -25,6 +27,8 @@ This repository contains a collection of my school projects from various courses
     - [Notebook.ipynb](Data%20Science/Yesterday/Project%20Name/Notebook.ipynb)
     - [Data.csv](Data%20Science/Yesterday/Project%20Name/Data.csv)
 
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 'Python'
+
 ### Introduction to AI
 
 - **Last Year**
@@ -32,12 +36,16 @@ This repository contains a collection of my school projects from various courses
     - [Code.py](Introduction%20to%20AI/Last%20Year/Project%20Name/Code.py)
     - [Report.md](Introduction%20to%20AI/Last%20Year/Project%20Name/Report.md)
 
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 'Python'
+
 ### Nand-to-Tetris
 
 - **Last Year**
   - [Project Name](Nand-to-Tetris/Last%20Year/Project%20Name)
     - [Chip.hdl](Nand-to-Tetris/Last%20Year/Project%20Name/Chip.hdl)
     - [Test.tst](Nand-to-Tetris/Last%20Year/Project%20Name/Test.tst)
+   
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) 'Assembly'
  
 ### Operating Systems Exercises
 
@@ -60,6 +68,8 @@ This directory contains a collection of exercises related to Operating Systems c
 This directory contains a custom implementation of a generic VLA Vector with functionality similar to std::Vector. The implementation utilizes both the stack and heap to store values, resulting in improved runtimes compared to std::Vector.
 
 - **[VLVector](VLVector)**: Custom Vector Implementation
+
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `C++`
 
 ## License
 
