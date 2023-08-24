@@ -52,6 +52,7 @@ This directory contains a collection of exercises related to Operating Systems c
 - **[Ex4](Operating%20Systems/Ex4)**: Virtual Memory Management
 
 - **[README](Operating%20Systems/README.md)**: Details about each excersie
+<span style="color: purple">C++</span>
 
 ### VLVector
 
