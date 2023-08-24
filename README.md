@@ -27,7 +27,7 @@ This repository contains a collection of my school projects from various courses
     - [Notebook.ipynb](Data%20Science/Yesterday/Project%20Name/Notebook.ipynb)
     - [Data.csv](Data%20Science/Yesterday/Project%20Name/Data.csv)
 
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 'Python'
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ### Introduction to AI
 
@@ -36,7 +36,7 @@ This repository contains a collection of my school projects from various courses
     - [Code.py](Introduction%20to%20AI/Last%20Year/Project%20Name/Code.py)
     - [Report.md](Introduction%20to%20AI/Last%20Year/Project%20Name/Report.md)
 
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) 'Python'
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ### Nand-to-Tetris
 
@@ -45,7 +45,7 @@ This repository contains a collection of my school projects from various courses
     - [Chip.hdl](Nand-to-Tetris/Last%20Year/Project%20Name/Chip.hdl)
     - [Test.tst](Nand-to-Tetris/Last%20Year/Project%20Name/Test.tst)
    
-![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) 'Assembly'
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Assembly`
  
 ### Operating Systems Exercises
 
