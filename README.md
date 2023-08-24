@@ -22,10 +22,15 @@ This repository contains a collection of my school projects from various courses
 
 ### Data Science
 
-- **Yesterday**
-  - [Project Name](Data%20Science/Yesterday/Project%20Name)
-    - [Notebook.ipynb](Data%20Science/Yesterday/Project%20Name/Notebook.ipynb)
-    - [Data.csv](Data%20Science/Yesterday/Project%20Name/Data.csv)
+This directory contains...
+
+- **[Data Science Final Presentation](Data%20Science/Data%20Science%20Final%20Project.pptx)**: 
+
+- **[Data Science Final Paper](Data%20Science/Data%20Science%20Final.docs)**: 
+
+- **[Final Project Notebook](Data%20Science/main.ipynb)**: 
+
+- **[README](Data%20Science/README.md)**: Details about the project
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
