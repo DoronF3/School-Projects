@@ -22,15 +22,15 @@ This repository contains a collection of my school projects from various courses
 
 ### Data Science
 
-This directory contains the files related to the final project of the Data Science course. The project focuses on understanding what impacts the number of peak concurrent users (CCU) of games and software on the Steam platform. Here's a brief overview of the files included:
+This directory contains the files related to the final project of the Data Science course. The project focuses on understanding what impacts the number of peak concurrent users (CCU) of games and software on the Steam platform.
 
-- **[Data Science Final Presentation](Data%20Science/Data%20Science%20Final%20Project.pptx)**: This PowerPoint presentation file contains the slides used for the final project presentation. It summarizes the key findings, insights, methodologies, and results of the data analysis conducted as part of the project.
+- **[Data Science Final Presentation](Data%20Science/Data%20Science%20Final%20Project.pptx)**: This PowerPoint presentation summarizes the key findings, insights, methodologies, and results of the data analysis conducted as part of the project
 
-- **[Data Science Final Paper](Data%20Science/Data%20Science%20Final.docs)**: This Word document file contains the detailed written report of the final project. It elaborates on the project's background, objectives, data sources, methodology, analysis techniques, results, and conclusions.
+- **[Data Science Final Paper](Data%20Science/Data%20Science%20Final.docs)**: This Word document elaborates on the project's background, objectives, data sources, methodology, analysis techniques, results, and conclusions
 
-- **[Final Project Notebook](Data%20Science/main.ipynb)**: This Jupyter Notebook file represents the main codebase for the final project. It contains the Python code, explanations, and visualizations that were used to perform data cleaning, analysis, modeling, and any other relevant tasks.
+- **[Final Project Notebook](Data%20Science/main.ipynb)**: This Jupyter Notebook contains the Python code, explanations, and visualizations that were used to perform data cleaning, analysis, modeling, and any other relevant tasks
 
-- **[README](Data%20Science/README.md)**: Details about the project
+- **[README](Data%20Science/README.md)**: This README adds further details about the project
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
