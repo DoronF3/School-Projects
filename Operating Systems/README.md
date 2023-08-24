@@ -2,15 +2,14 @@
 
 This directory contains a collection of exercises related to Operating Systems course projects. Each exercise focuses on different concepts and challenges in the field of operating systems.
 
-## Exercise 1: Memory Allocation Strategies
+## Exercise 1: OSM Time Measurement
 
-- **Description**: This exercise explores memory allocation strategies in operating systems. It includes implementing memory allocation algorithms and measuring their performance.
+- **Description**: This exercise explores measuring the time taken by various operations using the OSM (Operating Systems and Multiprogramming) library.
 - **Files**: 
   - `Makefile`: Makefile for compiling the exercise code.
   - `README.md`: Details about the exercise and instructions.
   - `Time measure.png`: Image showing the time measurements of memory allocation strategies.
-  - `osm.cpp`: Source code for memory allocation algorithms.
-- **Last Year**
+  - `osm.cpp`: Source code for measurments.
 
 ## Exercise 2: Multithreading and Synchronization
 
@@ -21,7 +20,6 @@ This directory contains a collection of exercises related to Operating Systems c
   - `Thread.cpp`: Source code for thread implementation.
   - `Thread.h`: Header file for thread definitions.
   - `uthreads.cpp`: Source code demonstrating thread behavior.
-- **Last Year**
 
 ## Exercise 3: Parallel Processing and MapReduce
 
@@ -33,7 +31,6 @@ This directory contains a collection of exercises related to Operating Systems c
   - `MapReduceFramework.cpp`: Source code for implementing the MapReduce framework.
   - `README.md`: Exercise details and instructions.
   - `fileWordCounter_comparison.png`: Image comparing file word counting using different approaches.
-- **Last Year**
 
 ## Exercise 4: Virtual Memory Management
 
@@ -42,6 +39,5 @@ This directory contains a collection of exercises related to Operating Systems c
   - `Makefile`: Makefile for compiling the exercise code.
   - `README.md`: Exercise overview and guidelines.
   - `VirtualMemory.cpp`: Source code for virtual memory management implementation.
-- **Last Year**
 
 Feel free to explore each exercise's respective directory for more details and the actual source code files.
