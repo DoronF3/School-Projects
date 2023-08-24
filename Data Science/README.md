@@ -20,7 +20,7 @@ git clone https://github.com/DoronF3/School-Projects/Data-Science.git
 
 3. **Review the Files:** You can review the PowerPoint presentation, Word document, and Jupyter Notebook to understand the project's content, findings, and codebase.
 
-4. **Interact with the Notebook:** If you want to interact with the Jupyter Notebook, ensure you have the required Python environment set up. You might need libraries such as Pandas, NumPy, Matplotlib, Seaborn, and any other dependencies used in the project. You can install them using package managers like pip or conda.
+4. **Interact with the Notebook:** If you want to interact with the Jupyter Notebook, ensure you have the required Python environment set up. You will need libraries such as Pandas, NumPy, Matplotlib, Seaborn, and any other dependencies used in the project. You can install them using package managers like pip or conda.
 
 5. **Modify and Extend:** Feel free to modify the code, add more analysis, or adapt the project for your own purposes. You can also use this repository as a template for organizing your own data science projects.
 
