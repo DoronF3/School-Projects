@@ -11,7 +11,7 @@ This repository contains a collection of my school projects from various courses
     - [File1.cpp](C%26C%2B%2B/Last%20Year/Project%20Name/File1.cpp)
     - [File2.h](C%26C%2B%2B/Last%20Year/Project%20Name/File2.h)
 
-![#E74C3C](https://via.placeholder.com/15/E74C3C/000000?text=+) `C`  ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `C++`
+![#E74C3C](https://via.placeholder.com/15/E74C3C/000000?text=+) `C` ![#EC87C0](https://via.placeholder.com/15/EC87C0/000000?text=+) `C++`
 
 ### Data Bases
 
@@ -32,7 +32,7 @@ This directory contains the files related to the final project of the Data Scien
 
 - **[README](Data%20Science/README.md)**: This README adds further details about the project
 
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Jupyter Notebooks`
 
 ### Introduction to AI
 
