@@ -53,3 +53,7 @@ Iterator it = vector.begin();
 it = vector.erase(it);       // Erase element at the iterator position
 it = vector.insert(it, val); // Insert a value at the iterator position
 ```
+
+## License
+This project is licensed under the MIT License.
+Feell free to use and modify this class according to your needs.
