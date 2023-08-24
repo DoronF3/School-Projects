@@ -14,7 +14,7 @@ To get started with this repository and access the project materials, follow the
 
 1. **Clone the Repository:** If you haven't already, clone this repository to your local machine using the following command:
    
-git clone https://github.com/your-username/Data-science.git
+git clone [https://github.com/DoronF3/School-Projects/tree/main/Data%20Science.git]
 
 2. **Access Project Files:** Once the repository is cloned, navigate to the repository's directory using the command line or a file explorer. You will find the three main project files mentioned above: `Data Science Final Project.pptx`, `Data Science Final.docx`, and `main.ipynb`.
 
