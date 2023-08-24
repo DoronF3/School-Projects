@@ -29,4 +29,4 @@ int value = staticVector[0]; // Access elements
 - Supports both static and dynamic storage based on capacity.
 - Implements memory allocation strategies to optimize performance.
 - Provides common methods like push_back, pop_back, at, size, capacity, etc.
-Can be used similarly to std::vector.
+- Can be used similarly to ```std::vector```.
