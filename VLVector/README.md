@@ -32,13 +32,24 @@ int value = staticVector[0]; // Access elements
 - Provides common methods like ```push_back```, ```pop_back```, ```at```, ```size```, ```capacity```, etc.
 - Can be used similarly to ```std::vector```.
 - Implements comparison operators ```==``` and ```!=``` to compare vectors.
+- Provides both ```const_Iterator``` and ```Iterator``` for iterating over the vector.
 
 
-## Const Random Access Iterator
-The ```VLVector``` class also includes a const random access iterator, ```const_Iterator```, which allows you to traverse the vector in a range-based loop or using iterator arithmetic.
+## Iterator and const_Iterator
+The ```VLVector``` class includes two types of iterators: ```Iterator``` and ```const_Iterator```. These iterators allow you to traverse the vector and perform various operations:
+
+- ```operator++``` and ```operator--``` for moving the iterator.
+- ```operator+```, ```operator-```, ```operator+=```, and ```operator-=``` for arithmetic operations on iterators.
+- ```operator==``` and ```operator!=``` for comparison.
+- ```operator*``` and ```operator->``` for dereferencing the iterator.
+- ```operator[]``` for accessing elements using index.
+- Various comparison operators like ```<```, ```>```, ```<=```, and ```>=``` for comparison between iterators.
+
+## Erase and Insert
+The ```VLVector``` class provides methods for erasing and inserting elements at a specific position using iterators:
+
 ```cpp
-for (auto it = vector.cbegin(); it != vector.cend(); ++it)
-{
-    // Access *it
-}
+Iterator it = vector.begin();
+it = vector.erase(it);       // Erase element at the iterator position
+it = vector.insert(it, val); // Insert a value at the iterator position
 ```
