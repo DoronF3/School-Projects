@@ -74,7 +74,7 @@ This directory contains a custom implementation of a generic VLA Vector with fun
 
 - **[VLVector](VLVector)**: A C++ template class that implements a variable-length array (VLA) vector. It provides similar functionality to `std::vector` and can dynamically switch between static and dynamic storage to optimize performance
   
-- **[README](VLVector/README.md)**: Details about the the vector capabilities and how to use
+- **[README](VLVector/README.md)**: Details about the vector capabilities and how to use
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `C++`
 
