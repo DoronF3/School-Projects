@@ -53,7 +53,7 @@ This directory contains a collection of exercises related to Operating Systems c
 
 - **[README](Operating%20Systems/README.md)**: Details about each excersie
 
-<span style="color: purple">C++</span>
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `C++`
 
 ### VLVector
 
