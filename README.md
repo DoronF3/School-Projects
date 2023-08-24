@@ -73,6 +73,7 @@ This directory contains a collection of exercises related to Operating Systems c
 This directory contains a custom implementation of a generic VLA Vector with functionality similar to std::Vector. The implementation utilizes both the stack and heap to store values, resulting in improved runtimes compared to std::Vector.
 
 - **[VLVector](VLVector)**: A C++ template class that implements a variable-length array (VLA) vector. It provides similar functionality to `std::vector` and can dynamically switch between static and dynamic storage to optimize performance
+  
 - **[README](VLVector/README.md)**: Details about the the vector capabilities and how to use
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `C++`
