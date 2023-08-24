@@ -55,5 +55,5 @@ it = vector.insert(it, val); // Insert a value at the iterator position
 ```
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT License](LICENSE).
 Feell free to use and modify this class according to your needs.
