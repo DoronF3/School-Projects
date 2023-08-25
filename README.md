@@ -46,6 +46,13 @@ This directory contains the files related to the final project of the Data Scien
 ### Nand-to-Tetris
 
 - **Last Year**
+- project1 : HDL Logic Gates and Multiplexers
+- project2 : HDL Arithmetic Logic Unit (ALU) and Arithmetic Components
+- project3: HDL Memory Components
+- project4: Assembly Language Programs
+- project5: Hardware Description Language (HDL) Files
+- project6: Assembly Language Tools and Scripts
+- project7: Virtual Machine Translator and Scripts
   - [Project Name](Nand-to-Tetris/Last%20Year/Project%20Name)
     - [Chip.hdl](Nand-to-Tetris/Last%20Year/Project%20Name/Chip.hdl)
     - [Test.tst](Nand-to-Tetris/Last%20Year/Project%20Name/Test.tst)
