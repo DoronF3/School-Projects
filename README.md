@@ -45,21 +45,28 @@ This directory contains the files related to the final project of the Data Scien
 
 ### Nand-to-Tetris
 
-- **Last Year**
-- project1 : HDL Logic Gates and Multiplexers
-- project2 : HDL Arithmetic Logic Unit (ALU) and Arithmetic Components
-- project3: HDL Memory Components
-- project4: Assembly Language Programs
-- project5: Computer Architecture
-- project6: Assembly Language Tools and Scripts
-- project7: Virtual Machine I: Stack Arithmetic
-- project8: Virtual Machine II: Program Control
-- project10: Jack Compiler Part I
-- projcect11: Jack Compiler Part II
-- project12: Jack OS
-  - [Project Name](Nand-to-Tetris/Last%20Year/Project%20Name)
-    - [Chip.hdl](Nand-to-Tetris/Last%20Year/Project%20Name/Chip.hdl)
-    - [Test.tst](Nand-to-Tetris/Last%20Year/Project%20Name/Test.tst)
+- **[HDL Logic Gates and Multiplexers](Nand-to-Tetris/project1)**: Explore and implement basic logic gates and multiplexers using the Hardware Description Language (HDL), providing a foundation for building more complex digital circuits.
+
+- **[HDL Arithmetic Logic Unit (ALU) and Arithmetic Components](Nand-to-Tetris/project2)**: Design and construct an Arithmetic Logic Unit (ALU) along with various arithmetic components using HDL, enabling mathematical computations within digital circuits.
+
+- **[HDL Memory Components](Nand-to-Tetris/project3)**: Create memory components such as registers and RAM modules using HDL, allowing data storage and retrieval within digital systems.
+
+- **[Assembly Language Programs](Nand-to-Tetris/project4)**: Write assembly language programs that can be executed on the Hack computer architecture, gaining hands-on experience in low-level programming.
+
+- **[Computer Architecture](Nand-to-Tetris/project5)**: Design and build a simple computer architecture known as the Hack computer, understanding the organization of its central processing unit, memory, and input/output.
+
+- **[Assembly Language Tools and Scripts](Nand-to-Tetris/project6)**: Develop assembler and emulator tools to convert assembly language programs into machine code and run them on the Hack computer architecture.
+
+- **[Virtual Machine I: Stack Arithmetic](Nand-to-Tetris/project7)**: Build a virtual machine (VM) and implement stack arithmetic operations using a VM-specific language, preparing for higher-level programming on the Hack platform.
+
+- **[Virtual Machine II: Program Control](Nand-to-Tetris/project8)**: Extend the virtual machine to handle branching and function call operations, enabling more sophisticated program control and execution.
+
+- **[Jack Compiler Part I](Nand-to-Tetris/project10)**: Create the first part of a compiler for the Jack programming language, focusing on syntax analysis and tokenizing Jack programs.
+
+- **[Jack Compiler Part II](Nand-to-Tetris/project11)**: Complete the compiler for the Jack language by implementing code generation and optimization techniques, allowing Jack programs to be translated into Hack assembly language.
+
+- **[Jack OS](Nand-to-Tetris/project12)**: Develop a simple operating system (Jack OS) using the Jack language, integrating software and hardware components to create interactive applications within the Hack platform.
+
    
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL` ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Assembly` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `Java`
  
