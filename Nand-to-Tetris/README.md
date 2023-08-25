@@ -7,32 +7,28 @@ Welcome to the Computer Science Projects repository. This repository contains a 
 **Description:** This exercise explores measuring the time taken by various operations using the OSM (Operating Systems and Multiprogramming) library.
 
 **Files:**
-- [Makefile](exercise1/Makefile): Makefile for compiling the exercise code.
-- [README.md](exercise1/README.md): Details about the exercise and instructions.
-- [Time_measure.png](exercise1/Time_measure.png): Image showing the time measurements of memory allocation strategies.
-- [osm.cpp](exercise1/osm.cpp): Source code for measurements.
+  - `And.hdl`:
+  - `And16.hdl`:
+  - `DMux.hdl`:
+  - `DMux4Way.hdl`:
+  - `DMux8Way.hdl`:
+  - `Mux.hdl`:
+  - `Mux16.hdl`:
+  - `Mux4Way16.hdl`:
+  - `Mux8Way16.hdl`:
+  - `Not.hdl`:
+  - `Not16.hdl`:
+  - `Or.hdl`:
+  - `Or16.hdl`:
+  - `Or8Way.hdl`:
+  - `Xor.hdl`:
 
 ## Project 2:
 
 **Description:** This exercise focuses on building logic gates and multiplexers using hardware description language (HDL).
 
 **Files:**
-- [And.hdl](exercise2/And.hdl)
-- [And16.hdl](exercise2/And16.hdl)
-- [DMux.hdl](exercise2/DMux.hdl)
-- [DMux4Way.hdl](exercise2/DMux4Way.hdl)
-- [DMux8Way.hdl](exercise2/DMux8Way.hdl)
-- [Mux.hdl](exercise2/Mux.hdl)
-- [Mux16.hdl](exercise2/Mux16.hdl)
-- [Mux4Way16.hdl](exercise2/Mux4Way16.hdl)
-- [Mux8Way16.hdl](exercise2/Mux8Way16.hdl)
-- [Not.hdl](exercise2/Not.hdl)
-- [Not16.hdl](exercise2/Not16.hdl)
-- [Or.hdl](exercise2/Or.hdl)
-- [Or16.hdl](exercise2/Or16.hdl)
-- [Or8Way.hdl](exercise2/Or8Way.hdl)
-- [Xor.hdl](exercise2/Xor.hdl)
-- [README.md](exercise2/README.md)
+
 
 
 
