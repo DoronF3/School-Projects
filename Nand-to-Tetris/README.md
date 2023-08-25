@@ -16,7 +16,7 @@ Welcome to the collection of computer science projects! Each project explores di
 
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
-## Project 2: Arithmetic Logic Unit (ALU)
+## Project 2: HDL Arithmetic Logic Unit (ALU) and Arithmetic Components
 
 **Description:** Designing an Arithmetic Logic Unit (ALU) that performs various arithmetic and logic operations.
 
@@ -27,7 +27,7 @@ Welcome to the collection of computer science projects! Each project explores di
 
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
-## Project 3: Memory Units
+## Project 3: HDL Memory Components
 
 **Description:** Creating different memory units and hierarchical memory systems.
 
@@ -38,7 +38,7 @@ Welcome to the collection of computer science projects! Each project explores di
 
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
-## Project 4: Assembly Language Programming
+## Project 4: Assembly Language Programs
 
 **Description:** This project involves working with assembly language programming to implement various algorithms and operations.
 
