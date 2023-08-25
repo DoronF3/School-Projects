@@ -7,35 +7,35 @@ This README provides an overview of the projects within this directory, each wit
 **Description:** Building logic gates and memory units using hardware description language (HDL).
 
 **Files:**
-- `And.hdl`:
-- `And16.hdl`:
-- `DMux.hdl`:
-- `DMux4Way.hdl`:
-- `DMux8Way.hdl`:
-- `Mux.hdl`:
-- `Mux16.hdl`:
-- `Mux4Way16.hdl`:
-- `Mux8Way16.hdl`:
-- `Not.hdl`:
-- `Not16.hdl`:
-- `Or.hdl`:
-- `Or16.hdl`:
-- `Or8Way.hdl`:
-- `Xor.hdl`:
+- `And.hdl`: Implements the logic gate AND.
+- `And16.hdl`: Implements the 16-bit version of the AND gate.
+- `DMux.hdl`: Implements a demultiplexer.
+- `DMux4Way.hdl`: Implements a 4-way demultiplexer.
+- `DMux8Way.hdl`: Implements an 8-way demultiplexer.
+- `Mux.hdl`: Implements a multiplexer.
+- `Mux16.hdl`: Implements the 16-bit version of the multiplexer.
+- `Mux4Way16.hdl`: Implements a 4-way 16-bit multiplexer.
+- `Mux8Way16.hdl`: Implements an 8-way 16-bit multiplexer.
+- `Not.hdl`: Implements the NOT gate.
+- `Not16.hdl`: Implements the 16-bit version of the NOT gate.
+- `Or.hdl`: Implements the OR gate.
+- `Or16.hdl`: Implements the 16-bit version of the OR gate.
+- `Or8Way.hdl`: Implements an 8-way OR gate.
+- `Xor.hdl`: Implements the XOR gate.
 
-## Project 2: ALU and Adders
+## Project 2: Arithmetic Logic Unit (ALU)
 
-**Description:** Designing an Arithmetic Logic Unit (ALU) and various adder circuits.
+**Description:** Designing an Arithmetic Logic Unit (ALU) that performs various arithmetic and logic operations.
 
 **Files:**
-- `ALU.hdl`:
-- `Add16.hdl`:
-- `FullAdder.hdl`:
-- `HalfAdder.hdl`:
-- `Inc16.hdl`:
-- `Mul.hdl`:
-- `ShiftLeft.hdl`:
-- `ShiftRight.hdl`:
+- `ALU.hdl`: Implements the ALU with different arithmetic and logic operations.
+- `Add16.hdl`: Implements a 16-bit adder.
+- `FullAdder.hdl`: Implements a full adder.
+- `HalfAdder.hdl`: Implements a half adder.
+- `Inc16.hdl`: Implements an incrementer.
+- `Mul.hdl`: Implements a basic multiplier.
+- `ShiftLeft.hdl`: Implements a left shift operation.
+- `ShiftRight.hdl`: Implements a right shift operation.
 
 ## Project 3: Memory Units
 
