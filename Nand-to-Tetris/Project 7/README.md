@@ -1,4 +1,4 @@
-# Virtual Machine Translator and Scripts
+# Virtual Machine I: Stack Arithmetic
 
 Welcome to the directory containing virtual machine (VM) translator scripts and tools. This collection of files is designed to assist with translating VM code into assembly language and executing VM programs.
 
