@@ -2,7 +2,7 @@
 
 Welcome to the collection of computer science projects! Each project explores different aspects of computer science, from hardware design to software implementation. Below is an overview of each project, its description, and the most important files with brief explanations.
 
-## Project 1: Logic Gates and Memory
+## Project 1: HDL Logic Gates and Multiplexers
 
 **Description:** Building logic gates and memory units using hardware description language (HDL).
 
@@ -142,4 +142,4 @@ Welcome to the collection of computer science projects! Each project explores di
 
 ## License
 
-The licensing information for each project is specified in the respective project directories.
+This collection of HDL files is provided under the [MIT License](LICENSE).
