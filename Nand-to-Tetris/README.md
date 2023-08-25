@@ -22,6 +22,7 @@ This README provides an overview of the projects within this directory, each wit
 - `Or16.hdl`: Implements the 16-bit version of the OR gate.
 - `Or8Way.hdl`: Implements an 8-way OR gate.
 - `Xor.hdl`: Implements the XOR gate.
+- `README.md`: Details about the exercise and instructions.
 
 ## Project 2: Arithmetic Logic Unit (ALU)
 
@@ -36,41 +37,44 @@ This README provides an overview of the projects within this directory, each wit
 - `Mul.hdl`: Implements a basic multiplier.
 - `ShiftLeft.hdl`: Implements a left shift operation.
 - `ShiftRight.hdl`: Implements a right shift operation.
+- `README.md`: Information about the exercise and guidelines.
 
 ## Project 3: Memory Units
 
 **Description:** Implementing different memory units using HDL.
 
 **Files:**
-- `Bit.hdl`
-- `PC.hdl`
-- `RAM16K.hdl`
-- `RAM4K.hdl`
-- `RAM512.hdl`
-- `RAM64.hdl`
-- `RAM8.hdl`
-- `Register.hdl`
+- `Bit.hdl`:
+- `PC.hdl`:
+- `RAM16K.hdl`:
+- `RAM4K.hdl`:
+- `RAM512.hdl`:
+- `RAM64.hdl`:
+- `RAM8.hdl`:
+- `Register.hdl`:
+- `README.md`: Exercise details and instructions.
 
 ## Project 4: Assembly Programming
 
 **Description:** Writing and testing assembly programs.
 
 **Files:**
-- `Divide.asm`
-- `Fill.asm`
-- `Mult.asm`
-- `Sort.asm`
+- `Divide.asm`:
+- `Fill.asm`:
+- `Mult.asm`:
+- `Sort.asm`:
+- `README.md`: Exercise overview and guidelines.
 
 ## Project 5: Computer Architecture Simulation
 
 **Description:** Simulating computer architecture using HDL.
 
 **Files:**
-- `CPU.hdl`
-- `Computer.hdl`
-- `CpuMul.hdl`
-- `ExtendAlu.hdl`
-- `Memory.hdl`
+- `CPU.hdl`:
+- `Computer.hdl`:
+- `CpuMul.hdl`:
+- `ExtendAlu.hdl`:
+- `Memory.hdl`:
 
 ## Project 6: Assembler
 
