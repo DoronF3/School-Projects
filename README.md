@@ -61,7 +61,7 @@ This directory contains the files related to the final project of the Data Scien
     - [Chip.hdl](Nand-to-Tetris/Last%20Year/Project%20Name/Chip.hdl)
     - [Test.tst](Nand-to-Tetris/Last%20Year/Project%20Name/Test.tst)
    
-![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Assembly`
+![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL` ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Assembly` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `Java`
  
 ### Operating Systems Exercises
 
