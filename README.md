@@ -50,12 +50,12 @@ This directory contains the files related to the final project of the Data Scien
 - project2 : HDL Arithmetic Logic Unit (ALU) and Arithmetic Components
 - project3: HDL Memory Components
 - project4: Assembly Language Programs
-- project5: Hardware Description Language (HDL) Files
+- project5: Computer Architecture
 - project6: Assembly Language Tools and Scripts
-- project7: Virtual Machine Translator and Scripts
-- project8: VM Translator and Tools
-- project10: Jack Compiler Part 1
-- projcect11: Jack Compiler Part 2
+- project7: Virtual Machine I: Stack Arithmetic
+- project8: Virtual Machine II: Program Control
+- project10: Jack Compiler Part I
+- projcect11: Jack Compiler Part II
 - project12: Jack OS
   - [Project Name](Nand-to-Tetris/Last%20Year/Project%20Name)
     - [Chip.hdl](Nand-to-Tetris/Last%20Year/Project%20Name/Chip.hdl)
