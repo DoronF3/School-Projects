@@ -1,4 +1,4 @@
-# Jack OS Standard Library
+# Jack OS
 
 Welcome to the Jack Standard Library directory. This collection of files includes the standard Jack library modules that provide useful abstractions for common programming tasks.
 
