@@ -67,7 +67,7 @@ This directory contains the files related to the final project of the Data Scien
 
 - **[Jack OS](Nand-to-Tetris/project12)**: Develop a simple operating system (Jack OS) using the Jack language, integrating software and hardware components to create interactive applications within the Hack platform.
 
-- **[README](Nand-to-Tetris/README.md)**: Details about each excersie
+- **[README](Nand-to-Tetris/README.md)**: Details about each excersie, key files and coding languages used.
    
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL` ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Assembly` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `Java`
  
