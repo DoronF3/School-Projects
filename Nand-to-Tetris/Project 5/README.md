@@ -1,6 +1,6 @@
-# Hardware Description Language (HDL) Files
+# Computer Architecture
 
-Welcome to the directory containing Hardware Description Language (HDL) files. Each HDL file represents a specific hardware component or system implemented using HDL.
+Welcome to the directory containing Computer Architecture (HDL) files. Each HDL file represents a specific hardware component or system implemented using HDL.
 
 ## Contents
 
