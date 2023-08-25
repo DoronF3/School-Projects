@@ -38,16 +38,18 @@ Welcome to the collection of computer science projects! Each project explores di
 
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
-## Project 4: Assembler
+## Project 4: Assembly Language Programming
 
-**Description:** Building an assembler for converting assembly code into machine code.
+**Description:** This project involves working with assembly language programming to implement various algorithms and operations.
 
-**Key Files:**
-- `Assembler`: Assembler executable.
-- `Code.py`: Python script for assembling code.
-- `Parser.py`: Parses assembly commands.
+### Key Files
 
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
+- `Divide.asm`: Assembly code implementing a division algorithm.
+- `Fill.asm`: Assembly code to fill a memory array with specified values.
+- `Mult.asm`: Assembly code for a multiplication algorithm.
+- `Sort.asm`: Assembly code to sort an array of values.
+
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Assembly`
 
 ## Project 5: Computer Architecture
 
@@ -60,7 +62,7 @@ Welcome to the collection of computer science projects! Each project explores di
 
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
-## Project 6: Assembler Continued
+## Project 6: Assembly Language Tools and Scripts
 
 **Description:** Further development of the assembler to handle more complex assembly instructions.
 
@@ -69,7 +71,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `Parser.py`: Parses more complex assembly commands.
 - `SymbolTable.py`: Manages symbols in the assembly code.
 
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `Assembly`
 
 ## Project 7: Virtual Machine I: Stack Arithmetic
 
