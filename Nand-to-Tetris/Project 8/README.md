@@ -1,4 +1,4 @@
-# VM Translator and Tools
+# Virtual Machine II: Program Control
 
 Welcome to the VM Translator and Tools directory. This collection of files includes scripts and tools designed to assist with translating VM code to assembly language and executing VM programs.
 
