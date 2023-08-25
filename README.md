@@ -63,7 +63,7 @@ This directory contains the files related to the final project of the Data Scien
 
 - **[Jack Compiler Part I](Nand-to-Tetris/Project%2010)**: Create the first part of a compiler for the Jack programming language, focusing on syntax analysis and tokenizing Jack programs.
 
-- **[Jack Compiler Part II](Nand-to-Tetris/Project%211)**: Complete the compiler for the Jack language by implementing code generation and optimization techniques, allowing Jack programs to be translated into Hack assembly language.
+- **[Jack Compiler Part II](Nand-to-Tetris/Project%2011)**: Complete the compiler for the Jack language by implementing code generation and optimization techniques, allowing Jack programs to be translated into Hack assembly language.
 
 - **[Jack OS](Nand-to-Tetris/Project%2012)**: Develop a simple operating system (Jack OS) using the Jack language, integrating software and hardware components to create interactive applications within the Hack platform.
 
