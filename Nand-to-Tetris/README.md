@@ -1,6 +1,6 @@
-# Computer Science Projects
+# Nand-to-Tetris
 
-Welcome to the collection of computer science projects! Each project explores different aspects of computer science, from hardware design to software implementation. Below is an overview of each project, its description, and the most important files with brief explanations.
+Welcome to the NAND to Tetris projects! This collection of projects guides you through building a computer system from the ground up, starting with a single NAND gate and culminating in a working computer running Tetris. Each project represents a critical step in understanding and constructing a complete computing system.
 
 ## Project 1: HDL Logic Gates and Multiplexers
 
@@ -135,10 +135,28 @@ Welcome to the collection of computer science projects! Each project explores di
 1. Navigate into the project subdirectory you are interested in.
 2. Explore the provided source code files to learn more about each project.
 
-## Notes
+## Resources
 
-- These projects cover a wide range of computer science topics, providing practical hands-on experience.
-- Feel free to modify and experiment with the code for educational purposes.
+Here are some helpful resources to assist you with the projects:
+
+### Official Course Website
+- [NAND to Tetris](https://www.nand2tetris.org/): The official course website with project descriptions, slides, and additional materials.
+
+### Book
+- "The Elements of Computing Systems" by Nisan and Schocken: This book accompanies the course and provides in-depth explanations and insights.
+
+### Software Tools
+- [Hardware Simulator](https://www.nand2tetris.org/software): A software tool for simulating hardware components and circuits.
+- [Assembler](https://www.nand2tetris.org/software): An assembler to translate assembly language programs to machine code.
+- [VM Emulator](https://www.nand2tetris.org/software): An emulator for the virtual machine.
+
+### Community and Support
+- [Nand2Tetris Forum](https://nand2tetris-questions-and-answers-forum.32033.n3.nabble.com/): A community forum where you can ask questions and interact with others.
+
+### Additional Reading
+- [Coursera NAND to Tetris Course](https://www.coursera.org/learn/build-a-computer): A course on Coursera that covers the same material with video lectures and assignments.
+
+These resources will provide you with a comprehensive understanding of the course material and support you throughout the projects.
 
 ## License
 
