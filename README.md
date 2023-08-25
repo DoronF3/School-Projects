@@ -67,13 +67,13 @@ This directory contains the files related to the final project of the Data Scien
 
 This directory contains a collection of exercises related to Operating Systems course projects. Each exercise focuses on different concepts and challenges in the field of operating systems.
 
-- **[Memory Allocation Strategies](Operating%20Systems/Ex1)**
+- **[Memory Allocation Strategies](Operating%20Systems/Ex1)**: In this project, we explore various strategies for memory allocation in computer systems. We delve into techniques like contiguous memory allocation, paging, and segmentation.
 
-- **[Multithreading and Synchronization](Operating%20Systems/Ex2)** 
+- **[Multithreading and Synchronization](Operating%20Systems/Ex2)**: This project delves into multithreading and synchronization in concurrent programming. We address challenges like race conditions and deadlocks, implementing synchronization mechanisms such as locks, semaphores, and monitors.
 
-- **[Parallel Processing and MapReduce](Operating%20Systems/Ex3)** 
+- **[Parallel Processing and MapReduce](Operating%20Systems/Ex3)**: This project is centered around parallel processing techniques and the MapReduce programming model. We design and implement parallel algorithms to tackle complex computational problems efficiently across multiple processors or cores.
 
-- **[Virtual Memory Management](Operating%20Systems/Ex4)** 
+- **[Virtual Memory Management](Operating%20Systems/Ex4)**: This project dives into the realm of virtual memory management within modern operating systems. Our project covers address translation, page replacement policies, and memory hierarchy.
 
 - **[README](Operating%20Systems/README.md)**: Details about each excersie
 
