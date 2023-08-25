@@ -53,6 +53,10 @@ This directory contains the files related to the final project of the Data Scien
 - project5: Hardware Description Language (HDL) Files
 - project6: Assembly Language Tools and Scripts
 - project7: Virtual Machine Translator and Scripts
+- project8: VM Translator and Tools
+- project10: Jack Compiler Part 1
+- projcect11: Jack Compiler Part 2
+- project12: Jack OS
   - [Project Name](Nand-to-Tetris/Last%20Year/Project%20Name)
     - [Chip.hdl](Nand-to-Tetris/Last%20Year/Project%20Name/Chip.hdl)
     - [Test.tst](Nand-to-Tetris/Last%20Year/Project%20Name/Test.tst)
