@@ -1,4 +1,4 @@
-# Jack Compiler Part 1
+# Jack Compiler Part I
 
 Welcome to the Jack Compiler and Tools directory. This collection of files includes scripts and tools designed to assist with compiling Jack programming language source code to virtual machine (VM) code.
 
