@@ -13,6 +13,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `And16.hdl`: Implements the 16-bit version of the AND gate.
 - `Mux.hdl`: Implements a multiplexer.
 - `Mux16.hdl`: Implements the 16-bit version of the multiplexer.
+
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
 ## Project 2: Arithmetic Logic Unit (ALU)
@@ -23,6 +24,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `ALU.hdl`: Implements the ALU with different arithmetic and logic operations.
 - `Add16.hdl`: Implements a 16-bit adder.
 - `Mul.hdl`: Implements a basic multiplier.
+
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
 ## Project 3: Memory Units
@@ -33,6 +35,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `Bit.hdl`: Implements a single-bit memory cell.
 - `RAM8.hdl`: Implements an 8-bit RAM.
 - `RAM64.hdl`: Implements a 64-bit RAM.
+
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
 ## Project 4: Assembler
@@ -43,6 +46,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `Assembler`: Assembler executable.
 - `Code.py`: Python script for assembling code.
 - `Parser.py`: Parses assembly commands.
+
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ## Project 5: Computer Architecture
@@ -53,6 +57,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `CPU.hdl`: Implements a basic CPU.
 - `Computer.hdl`: Combines the CPU with memory units to create a complete computer.
 - `Memory.hdl`: Implements memory components.
+
 ![#00FF00](https://via.placeholder.com/15/00FF00/000000?text=+) `HDL`
 
 ## Project 6: Assembler Continued
@@ -63,6 +68,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `Main.py`: Main script for assembling code.
 - `Parser.py`: Parses more complex assembly commands.
 - `SymbolTable.py`: Manages symbols in the assembly code.
+
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ## Project 7: Virtual Machine I: Stack Arithmetic
@@ -73,6 +79,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `CodeWriter.py`: Generates assembly code for stack operations.
 - `Main.py`: Main script for translating virtual machine code.
 - `Parser.py`: Parses virtual machine commands.
+
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ## Project 8: Virtual Machine II: Program Control
@@ -82,6 +89,7 @@ Welcome to the collection of computer science projects! Each project explores di
 **Key Files:**
 - `CodeWriter.py`: Extends code generation to support branching and function call commands.
 - `Parser.py`: Parses new virtual machine commands.
+
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ## Project 10: Jack Compiler Part I
@@ -91,6 +99,7 @@ Welcome to the collection of computer science projects! Each project explores di
 **Key Files:**
 - `JackTokenizer.py`: Tokenizes Jack source code.
 - `CompilationEngine.py`: Parses and generates XML parse trees for Jack code.
+
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ## Project 11: Jack Compiler Part II
@@ -100,6 +109,7 @@ Welcome to the collection of computer science projects! Each project explores di
 **Key Files:**
 - `JackCompiler.py`: Orchestrates the compilation process.
 - `VMWriter.py`: Generates VM code from the parsed Jack code.
+
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ## Project 12: Jack OS
@@ -115,6 +125,7 @@ Welcome to the collection of computer science projects! Each project explores di
 - `Screen.jack`: Screen handling implementation.
 - `String.jack`: String manipulation implementation.
 - `Sys.jack`: System-level operations implementation.
+
 ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `Java`
 
 ## Getting Started
