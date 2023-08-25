@@ -34,8 +34,4 @@ Each HDL file in this directory represents a specific logic gate or multiplexer.
 - HDL files use a hardware description language to represent digital logic components and their interconnections.
 - These HDL files are provided as educational examples and can be used to learn about digital circuit design principles.
 
-## License
-
-This collection of HDL files is provided under the [MIT License](LICENSE).
-
 Feel free to use, modify, and integrate these HDL files into your own digital circuit designs.
