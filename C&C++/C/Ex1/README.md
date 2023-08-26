@@ -11,7 +11,7 @@ $ gcc student_info.c -o student_info
 $ ./student_info [sorting_method]
 ```
 
-Replace [sorting_method] with one of the following options:
+Replace `[sorting_method]` with one of the following options:
 
 best: Displays information of the best student based on a calculated value.
 merge: Displays student information sorted using the merge sort algorithm.
@@ -37,3 +37,15 @@ The program expects input data for each student in the following format:
 - `Age`: Student age (numeric between 18 and 120).
 - `Country`: Student country (alphabetic).
 - `City`: Student city (alphabetic).
+
+### Sorting Methods
+- `best`: Displays information of the student with the highest calculated value.
+- `merge`: Displays student information sorted using merge sort.
+- `quick`: Displays student information sorted using quick sort.
+
+### Usage Examples
+```bash
+$ ./student_info best
+$ ./student_info merge
+$ ./student_info quick
+```
