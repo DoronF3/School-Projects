@@ -65,13 +65,14 @@ The program performs error checks for invalid input data and file operations. If
 ### Example
 
 Suppose you have a graph file `tree.txt` with the following content:
-
+```
 6
 0 1
 1 2 3
 2
 3 4
 4 5
+```
 
 You can analyze the tree as follows:
 ```bash
@@ -83,5 +84,7 @@ The program will display information about the tree structure and properties bas
 ### Note
 
 ```perl
-Please replace the placeholders (`<Graph_File_Path>`, `<First_Vertex>`, and `<Second_Vertex>`) with actual values when using the program. Also, note that the example graph data provided in the documentation (`tree.txt`) is for illustration purposes; you should use your own graph data when running the program.
+Please replace the placeholders (`<Graph_File_Path>`, `<First_Vertex>`, and `<Second_Vertex>`) with actual values when using the program.
+
+Also, note that the example graph data provided in the documentation (`tree.txt`) is for illustration purposes; you should use your own graph data when running the program.
 ```
