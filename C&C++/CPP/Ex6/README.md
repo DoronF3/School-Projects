@@ -4,18 +4,16 @@ The `HashMap` class is an implementation of a hash map container in C++. It prov
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Usage](#usage)
+- [HashMap Usage](#HashMap-Usage)
 - [Public Member Functions](#public-member-functions)
 - [Exceptions](#exceptions)
 - [Iterator](#iterator)
-- [License](#license)
+- [SpamDetector](#SpamDetector)
+- [SpamDetector Usage](#SpamDetector-Usage)
+- [Program Explanation](#program-explanation)
+- [Dependencies](#dependencies)
 
-## Overview
-
-The `HashMap` class is a template class that can store arbitrary types of keys and values. It uses a hash function to determine the index in an array (referred to as buckets) where each key-value pair is stored. This allows for fast retrieval of values based on keys.
-
-## Usage
+## HashMap Usage
 
 To use the `HashMap` class, you need to include the `HashMap.hpp` header in your code. You can create instances of the `HashMap` class by specifying the key and value types, for example:
 
@@ -64,3 +62,44 @@ for (const auto& pair : myMap) {
     std::cout << "Key: " << pair.first << ", Value: " << pair.second << std::endl;
 }
 ```
+
+# SpamDetector
+
+The `SpamDetector` is a program that uses the `HashMap` class to detect spam messages in a given message file. It reads a database file containing words and their associated spam scores, and then analyzes the given message to determine if it's spam based on the accumulated scores of the words in the message.
+
+## SpamDetector Usage
+
+To use the `SpamDetector` program, you need to compile it along with the `HashMap` class and the required Boost libraries. The program expects three command-line arguments:
+
+1. Path to the database file containing words and their associated spam scores.
+2. Path to the message file to be analyzed for spam.
+3. Threshold value - an integer that determines the spam threshold.
+
+Example usage:
+
+```sh
+./SpamDetector database.txt message.txt 100
+```
+
+## Program Explanation
+
+The program performs the following steps:
+
+- First, it checks if the correct number of command-line arguments has been provided. If not, it displays an error message and exits.
+
+- Next, it verifies if the threshold provided is a valid positive integer. If not, it displays an error message and exits.
+
+- The program also checks if the provided file paths exist and ensures that the threshold value is consistent in terms of its digits and positivity.
+
+- The `parser` function reads the database file, parsing the content line by line, and then populating the `HashMap` with words and their corresponding spam scores. If the input is invalid, the program displays an error message and exits.
+
+- The `checkSpam` function reads the message file, converts the content to lowercase, and searches for words from the `HashMap` in the message. It accumulates the spam scores for matching words and compares the total score against the threshold. Depending on the score, it prints whether the message is spam or not.
+
+- The `main` function coordinates the overall program execution. It reads the database file, creates the `HashMap`, analyzes the message, and outputs the result.
+
+## Dependencies
+
+The program depends on the following components:
+
+- The `HashMap` class provided in the `HashMap.hpp` header.
+- The Boost C++ libraries, particularly `boost/filesystem.hpp` and `boost/tokenizer.hpp`.
