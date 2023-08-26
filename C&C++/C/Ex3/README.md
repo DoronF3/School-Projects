@@ -19,6 +19,18 @@ The Red-Black Tree is a binary search tree with additional properties to ensure 
 - `void freeNode(struct Node *node, FreeFunc func)`: Frees memory allocated for a node and its children in the Red-Black Tree.
 - `void freeRBTree(RBTree *tree)`: Frees memory associated with the entire Red-Black Tree.
 
+### Usage
+
+```c
+// Example usage of RBTree functions
+RBTree *tree = newRBTree(stringCompare, freeString);
+addToRBTree(tree, "apple");
+addToRBTree(tree, "banana");
+int containsApple = containsRBTree(tree, "apple");  // Should return 1
+int containsCherry = containsRBTree(tree, "cherry"); // Should return 0
+freeRBTree(tree);
+```
+
 ## Vector and String Structures and Functions (`Structs.c`)
 
 The `Structs.c` file contains the implementation of structures and functions related to vectors and strings used in conjunction with the Red-Black Tree.
@@ -37,3 +49,17 @@ This file implements structures and functions necessary for working with vectors
 - `double calcNorm(const void *pVector)`: Calculates the power of the norm of a vector.
 - `int copyIfNormIsLarger(const void *pVector, void *pMaxVector)`: Copies a vector if its norm is larger than the norm of another vector.
 - `Vector *findMaxNormVectorInTree(RBTree *tree)`: Finds the vector with the largest norm in the Red-Black Tree.
+
+### Usage
+
+```c
+// Example usage of Vector functions
+Vector *vector1 = createVector(3, (double[]){1.0, 2.0, 3.0});
+Vector *vector2 = createVector(3, (double[]){2.0, 3.0, 4.0});
+int comparisonResult = vectorCompare1By1(vector1, vector2);  // Should return -1
+double norm = calcNorm(vector1);
+Vector *maxNormVector = findMaxNormVectorInTree(tree);
+freeVector(vector1);
+freeVector(vector2);
+freeVector(maxNormVector);
+```
