@@ -29,6 +29,7 @@ quick: Displays student information sorted using the quick sort algorithm.
 
 ### Sample Input Format
 The program expects input data for each student in the following format:
+
 [ID]    [Name]  [Grade] [Age]   [Country]   [City]
 
 - `ID`: Student ID (10 characters, numeric).
