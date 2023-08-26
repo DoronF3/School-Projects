@@ -1,12 +1,12 @@
-# Red-Black Tree Implementation (`RBTree.c`)
+## Red-Black Tree Implementation (`RBTree.c`)
 
 The `RBTree.c` file contains the implementation of a Red-Black Tree data structure. Red-Black Trees are a type of self-balancing binary search tree that ensures efficient insertion, deletion, and retrieval operations.
 
-## Introduction
+### Introduction
 
 The Red-Black Tree is a binary search tree with additional properties to ensure that it remains balanced. These properties include coloring each node as red or black and performing rotations and recoloring operations during insertions and deletions to maintain balance.
 
-## Functions
+### Functions
 
 - `RBTree *newRBTree(CompareFunc compFunc, FreeFunc freeFunc)`: Constructs a new Red-Black Tree with the given comparison and free functions.
 - `void leftRotation(Node *node, RBTree *tree)`: Performs a left rotation on the given node in the Red-Black Tree.
@@ -19,15 +19,15 @@ The Red-Black Tree is a binary search tree with additional properties to ensure 
 - `void freeNode(struct Node *node, FreeFunc func)`: Frees memory allocated for a node and its children in the Red-Black Tree.
 - `void freeRBTree(RBTree *tree)`: Frees memory associated with the entire Red-Black Tree.
 
-# Vector and String Structures and Functions (`Structs.c`)
+## Vector and String Structures and Functions (`Structs.c`)
 
 The `Structs.c` file contains the implementation of structures and functions related to vectors and strings used in conjunction with the Red-Black Tree.
 
-## Introduction
+### Introduction
 
 This file implements structures and functions necessary for working with vectors and strings. These are used in tandem with the Red-Black Tree implementation to provide more complex data handling capabilities.
 
-## Functions
+### Functions
 
 - `int stringCompare(const void *a, const void *b)`: Compares two strings lexicographically for the Red-Black Tree's comparison function.
 - `int concatenate(const void *word, void *pConcatenated)`: Concatenates a word to an existing string in memory.
