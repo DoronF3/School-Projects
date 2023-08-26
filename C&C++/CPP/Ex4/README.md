@@ -29,4 +29,4 @@ This directory contains a collection of C++ files that together form a neural ne
    #include "MlpNetwork.h"
    ```
 4. Create and configure instances of activation functions, dense layers, matrices, and MLP networks according to your needs.
-5.Train and evaluate your neural networks using the implemented library components.
+5. Train and evaluate your neural networks using the implemented library components.
