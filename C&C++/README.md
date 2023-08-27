@@ -1,5 +1,3 @@
-Welcome to the C and C++ directory!
-
 # C Exercises
 
 This directory contains three example projects: Ex1, Ex2, and Ex3. Each project includes source code files and README files providing information about the project's purpose and usage.
