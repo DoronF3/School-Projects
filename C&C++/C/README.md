@@ -9,7 +9,7 @@ This directory contains three example projects: Ex1, Ex2, and Ex3. Each project 
   - `manageStudents.c`: Source code for managing student information.
   - `README.md`: Further explenation about the exercise.
 
-## Ex2: TreeAnalyzer
+## Ex2: Tree Analyzer
 
 - **Description**: A project for analyzing trees and performing tree-related operations.
 - **Files**:
