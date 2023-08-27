@@ -6,49 +6,44 @@ Welcome to the "databases" directory! This repository contains assignments relat
 
 - **Description**: This assignment covers fundamental SQL concepts, including querying and populating databases.
 - **Key Files**:
-  - `README.md`
-  - `SQLTesting.py`
-  - `Vagrantfile`
-  - `populate-sn.sql`
-  - `queries.py`
+  - `README.md`: Assignment details and guidelines.
+  - `SQLTesting.py`: Python script for testing SQL queries.
+  - `populate-sn.sql`: SQL script for populating the database.
+  - `queries.py`: Python script with SQL queries.
 
 ## Assignment-2: Database Operations and APIs
 
 - **Description**: In this assignment, you'll work with databases, APIs, and Java programming.
 - **Key Files**:
-  - `LCC.java`
-  - `README.md`
-  - `SQLTesting.py`
-  - `postgresql-42.2.10.jar`
-  - `queries.py`
-  - `rest.py`
+  - `LCC.java`: Java program for LCC computation.
+  - `README.md`: Assignment details and guidelines.
+  - `SQLTesting.py`: Python script for testing SQL queries.
+  - `queries.py`: Python script with SQL queries.
+  - `rest.py`: Python script for RESTful API.
 
 ## Assignment-4: Database Implementation
 
 - **Description**: This assignment focuses on implementing core database functionalities, including B-trees and query processing.
 - **Key Files**:
-  - `README.md`
-  - `btree.py`
-  - `create_sample_databases.py`
-  - `disk_relations.py`
-  - `queryprocessing.py`
-  - `testing-btree.py`
-  - `testing-queryprocessing.py`
+  - `README.md`: Assignment details and guidelines.
+  - `btree.py`: Python script for B-tree implementation.
+  - `create_sample_databases.py`: Python script for creating sample databases.
+  - `disk_relations.py`: Python script for disk-based relations.
+  - `queryprocessing.py`: Python script for query processing.
+  - `testing-btree.py`: Python script for testing B-tree.
+  - `testing-queryprocessing.py`: Python script for testing query processing.
 
 ## Assignment-5: Spark and MongoDB
 
 - **Description**: Explore big data processing using Spark and MongoDB in this assignment.
 - **Key Files**:
-  - `README.md`
-  - `Assignment.ipynb`
-  - `Introduction to Spark.ipynb`
-  - `MongoDBTesting.py`
-  - `Vagrantfile`
-  - `examples.py`
-  - `functions.py`
-  - `queries.py`
-  - `spark_assignment.py`
-  - `states.txt`
-  - `wordcount.py`
+  - `README.md`: Assignment details and guidelines.
+  - `MongoDBTesting.py`: Python script for testing MongoDB.
+  - `examples.py`: Python script with examples.
+  - `functions.py`: Python script with functions.
+  - `queries.py`: Python script with queries.
+  - `spark_assignment.py`: Python script for Spark assignment.
+  - `states.txt`: Text file with states data.
+  - `wordcount.py`: Python script for word count.
 
 Feel free to explore the key files in each assignment's directory for more information about their contents and functionalities.
