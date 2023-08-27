@@ -55,9 +55,6 @@ You are also provided with a Python file `SQLTesting.py` for testing your answer
 - `-i` flag to SQLTesting will run all the queries, one at a time (waiting for you to press Enter after each query).
 
 - **Note**: We will essentially run a modified version of `SQLTesting.py` that compares the returned answers against correct answers. So it imperative that `python3 SQLTesting.py` runs without errors.
-
-### Submission Instructions
-Submit the `queries.py` file on Gradescope under Assignment 1. 
       
 ### Assignment Questions
 See `queries.py` file.
