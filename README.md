@@ -4,9 +4,7 @@ This repository contains a collection of my school projects from various courses
 
 ## Courses and Projects
 
-### C&C++
-
-# C Exercises
+### C Exercises
 
 This directory contains three exercises: Ex1, Ex2, and Ex3. Each project includes source code files and README files providing information about the project's purpose and usage.
 
@@ -18,7 +16,7 @@ This directory contains three exercises: Ex1, Ex2, and Ex3. Each project include
 
 -  **[README](C/README.md)**: This README adds further details about the project.
 
-# C++ Exercises
+### C++ Exercises
 
 This directory contains exercises related to C++ programming.
 
