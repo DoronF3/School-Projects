@@ -22,11 +22,11 @@ This directory contains three exercises: Ex1, Ex2, and Ex3. Each project include
 
 This directory contains exercises related to C++ programming.
 
-- **[Neural Network Library](C&C++/CPP/Exercise%204)**: In this exercise, we focus on building essential components for neural networks.
+- **[Neural Network Library](C&C++/CPP/Exercise4)**: In this exercise, we focus on building essential components for neural networks.
   
-- **[Fractal Generation and Visualization](C&C++/CPP/Exercise%205)**: In this exercise, we explore fractal generation algorithms and visualization techniques.
+- **[Fractal Generation and Visualization](C&C++/CPP/Exercise5)**: In this exercise, we explore fractal generation algorithms and visualization techniques.
   
-- **[HashMap Class](C&C++/CPP/Exercise%206)**: In this exercise, we delve into data structures and their practical applications.
+- **[HashMap Class](C&C++/CPP/Exercise6)**: In this exercise, we delve into data structures and their practical applications.
 
 - **[README](C&C++/CPP/README.md)**: This README adds further details about the project.
 
