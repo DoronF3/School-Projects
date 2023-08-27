@@ -1,7 +1,5 @@
 ## Assignment 1: SQL Assignment - Part 1, CMSC424, Fall 2021
 
-*The assignment is to be done by yourself.*
-
 The following assumes you have gone through PostgreSQL instructions and have ran some queries on the `university` database. 
 It also assumes you have cloned the git repository, and have done a `git pull` to download the directory `Assignment-1`. The files are:
 
@@ -40,7 +38,7 @@ In many cases (especially for complex queries or queries involving `max` or `min
 
 You don't have to use the "hints" if you don't want to; there might be simpler ways to solve the questions.
 
-### Testing and submitting using SQLTesting.py
+### Testing using SQLTesting.py
 Your answers (i.e., SQL queries) should be added to the `queries.py` file. A simple query is provided for the first answer to show you how it works.
 You are also provided with a Python file `SQLTesting.py` for testing your answers.
 
