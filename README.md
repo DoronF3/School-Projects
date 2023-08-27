@@ -16,6 +16,8 @@ This directory contains three exercises: Ex1, Ex2, and Ex3. Each project include
 
 -  **[README](C/README.md)**: This README adds further details about the project.
 
+![#E74C3C](https://via.placeholder.com/15/E74C3C/000000?text=+) `C` 
+
 ### C++ Exercises
 
 This directory contains exercises related to C++ programming.
@@ -28,7 +30,7 @@ This directory contains exercises related to C++ programming.
 
 - **[README](CPP/README.md)**: This README adds further details about the project.
 
-![#E74C3C](https://via.placeholder.com/15/E74C3C/000000?text=+) `C` ![#EC87C0](https://via.placeholder.com/15/EC87C0/000000?text=+) `C++`
+![#EC87C0](https://via.placeholder.com/15/EC87C0/000000?text=+) `C++`
 
 ### Data Bases
 
