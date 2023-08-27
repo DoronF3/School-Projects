@@ -10,7 +10,7 @@ these constructs should be used. We have provided links to the appropriate Postg
 
 See `queries.py` for the details.
 
-## SQL and Java (1.5 point)
+## SQL and Java
 One of more prominent ways to use a database system is using an external client, using APIs such as ODBC and JDBC, or proprietary protocols.
 This allows you to run queries against the database and access the results from within say a Java or a Python program.
 
@@ -53,7 +53,7 @@ We have provided a skeleton code to get you started. As above, the code will be 
 .:./postgresql-42.2.10.jar LCC`, and should result in a modified `users` table as described above.
 
 
-## SQL and Python (1.5 point)
+## SQL and Python
 This project is similar to the above, in that you are being asked to write (complete) a Python program that accesses the database using `psycopg2` -- unlike
 the above case, `psycopg2` uses a proprietary protocol, not JDBC or ODBC.
 
