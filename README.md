@@ -53,7 +53,7 @@ This directory contains the files related to the final project of the Data Scien
 
 - **[README](Data%20Science/README.md)**: This README adds further details about the project.
 
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Jupyter Notebook`
+![#808080](https://via.placeholder.com/15/808080/000000?text=+) ` SQL` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Jupyter Notebook`
 
 ### Introduction to AI
 
