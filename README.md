@@ -8,13 +8,13 @@ This repository contains a collection of my school projects from various courses
 
 This directory contains three exercises: Ex1, Ex2, and Ex3. Each project includes source code files and README files providing information about the project's purpose and usage.
 
-- **[Manage Students](C/Ex1)**: A project for managing student information and using different sorting methods to filter through them.
+- **[Manage Students](C&C++/C/Ex1)**: A project for managing student information and using different sorting methods to filter through them.
   
-- **[Tree Analyzer](C/Ex2)**: A project for analyzing trees and performing tree-related operations.
+- **[Tree Analyzer](C&C++/C/Ex2)**: A project for analyzing trees and performing tree-related operations.
   
-- **[Red-Black Tree Implementation](C/Ex3)**: A project implementing a Red-Black Tree data structure along with supporting structures.
+- **[Red-Black Tree Implementation](C&C++/C/Ex3)**: A project implementing a Red-Black Tree data structure along with supporting structures.
 
--  **[README](C/README.md)**: This README adds further details about the project.
+-  **[README](C&C++/C/README.md)**: This README adds further details about the project.
 
 ![#E74C3C](https://via.placeholder.com/15/E74C3C/000000?text=+) `C` 
 
@@ -22,13 +22,13 @@ This directory contains three exercises: Ex1, Ex2, and Ex3. Each project include
 
 This directory contains exercises related to C++ programming.
 
-- **[Neural Network Library](CPP/Exercise%204)**: In this exercise, we focus on building essential components for neural networks.
+- **[Neural Network Library](C&C++/CPP/Exercise%204)**: In this exercise, we focus on building essential components for neural networks.
   
-- **[Fractal Generation and Visualization](CPP/Exercise%205)**: In this exercise, we explore fractal generation algorithms and visualization techniques.
+- **[Fractal Generation and Visualization](C&C++/CPP/Exercise%205)**: In this exercise, we explore fractal generation algorithms and visualization techniques.
   
-- **[HashMap Class](CPP/Exercise%206)**: In this exercise, we delve into data structures and their practical applications.
+- **[HashMap Class](C&C++/CPP/Exercise%206)**: In this exercise, we delve into data structures and their practical applications.
 
-- **[README](CPP/README.md)**: This README adds further details about the project.
+- **[README](C&C++/CPP/README.md)**: This README adds further details about the project.
 
 ![#EC87C0](https://via.placeholder.com/15/EC87C0/000000?text=+) `C++`
 
