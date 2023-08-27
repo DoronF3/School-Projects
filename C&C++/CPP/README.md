@@ -1,4 +1,4 @@
-# C++ Directory README
+# C++ Exercises
 
 Welcome to the C++ directory! This repository contains various exercises and projects related to C++ programming.
 
