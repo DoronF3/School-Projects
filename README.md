@@ -38,6 +38,8 @@ This directory contains exercises related to C++ programming.
   - [Project Name](Data%20Bases/Last%20Year/Project%20Name)
     - [Script.sql](Data%20Bases/Last%20Year/Project%20Name/Script.sql)
     - [Report.pdf](Data%20Bases/Last%20Year/Project%20Name/Report.pdf)
+   
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `Java`
 
 ### Data Science
 
