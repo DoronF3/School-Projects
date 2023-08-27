@@ -54,7 +54,7 @@ This directory contains the files related to the final project of the Data Scien
 
 - **[Data Science Final Presentation](Data%20Science/Data%20Science%20Final%20Project.pptx)**: This PowerPoint presentation summarizes the key findings, insights, methodologies, and results of the data analysis conducted as part of the project
 
-- **[Data Science Final Paper](Data%20Science/Data%20Science%20Final.docs)**: This Word document elaborates on the project's background, objectives, data sources, methodology, analysis techniques, results, and conclusions
+- **[Data Science Final Paper](Data%20Science/Data%20Science%20Final.docx)**: This Word document elaborates on the project's background, objectives, data sources, methodology, analysis techniques, results, and conclusions
 
 - **[Final Project Notebook](Data%20Science/main.ipynb)**: This Jupyter Notebook contains the Python code, explanations, and visualizations that were used to perform data cleaning, analysis, modeling, and any other relevant tasks
 
