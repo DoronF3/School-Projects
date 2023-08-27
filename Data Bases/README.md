@@ -11,6 +11,8 @@ Welcome to the "databases" directory! This repository contains assignments relat
   - `populate-sn.sql`: SQL script for populating the database.
   - `queries.py`: Python script with SQL queries.
 
+![#808080](https://via.placeholder.com/15/808080/000000?text=+) `SQL`
+
 ## Assignment-2: Database Operations and APIs
 
 - **Description**: In this assignment, you'll work with databases, APIs, and Java programming.
@@ -20,6 +22,8 @@ Welcome to the "databases" directory! This repository contains assignments relat
   - `SQLTesting.py`: Python script for testing SQL queries.
   - `queries.py`: Python script with SQL queries.
   - `rest.py`: Python script for RESTful API.
+
+![#808080](https://via.placeholder.com/15/808080/000000?text=+) `SQL` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `Java`
 
 ## Assignment-4: Database Implementation
 
@@ -33,6 +37,8 @@ Welcome to the "databases" directory! This repository contains assignments relat
   - `testing-btree.py`: Python script for testing B-tree.
   - `testing-queryprocessing.py`: Python script for testing query processing.
 
+![#808080](https://via.placeholder.com/15/808080/000000?text=+) `SQL` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
+
 ## Assignment-5: Spark and MongoDB
 
 - **Description**: Explore big data processing using Spark and MongoDB in this assignment.
@@ -45,5 +51,7 @@ Welcome to the "databases" directory! This repository contains assignments relat
   - `spark_assignment.py`: Python script for Spark assignment.
   - `states.txt`: Text file with states data.
   - `wordcount.py`: Python script for word count.
+
+![#808080](https://via.placeholder.com/15/808080/000000?text=+) `SQL` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 Feel free to explore the key files in each assignment's directory for more information about their contents and functionalities.
