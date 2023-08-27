@@ -34,10 +34,20 @@ This directory contains exercises related to C++ programming.
 
 ### Data Bases
 
-- **Last Year**
-  - [Project Name](Data%20Bases/Last%20Year/Project%20Name)
-    - [Script.sql](Data%20Bases/Last%20Year/Project%20Name/Script.sql)
-    - [Report.pdf](Data%20Bases/Last%20Year/Project%20Name/Report.pdf)
+This directory contains assignments related to database management.
+
+- **[SQL Basics](Data%20Bases/Assignment-1)**: This assignment covers fundamental SQL concepts, including querying and populating databases.
+
+- **[Database Operations and APIs](Data%20Bases/Assignment-2)**: In this assignment, you'll work with databases, APIs, and Java programming.
+
+- **[Database Implementation](Data%20Bases/Assignment-4)**: This assignment focuses on implementing core database functionalities, including B-trees and query processing. 
+
+- **[Spark and MongoDB](Data%20Bases/Assignment-5)**: Explore big data processing using Spark and MongoDB in this assignment.
+
+- **[README](Data%20Bases/README.md)**: Details about each assignemnt.
+
+Feel free to explore the key files in each assignment's directory for more information about their contents and functionalities.
+
    
 ![#808080](https://via.placeholder.com/15/808080/000000?text=+) `SQL` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `Java`
 
@@ -65,6 +75,8 @@ This directory contains the files related to the final project of the Data Scien
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
 ### Nand-to-Tetris
+
+This directory contains a collection of exercises related to Nand-to-Tetris course.
 
 - **[HDL Logic Gates and Multiplexers](Nand-to-Tetris/Project%201)**: Explore and implement basic logic gates and multiplexers using the Hardware Description Language (HDL), providing a foundation for building more complex digital circuits.
 
