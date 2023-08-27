@@ -45,9 +45,6 @@ This directory contains assignments related to database management.
 - **[Spark and MongoDB](Data%20Bases/Assignment-5)**: Explore big data processing using Spark and MongoDB in this assignment.
 
 - **[README](Data%20Bases/README.md)**: Details about each assignemnt.
-
-Feel free to explore the key files in each assignment's directory for more information about their contents and functionalities.
-
    
 ![#808080](https://via.placeholder.com/15/808080/000000?text=+) `SQL` ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) `Java`
 
