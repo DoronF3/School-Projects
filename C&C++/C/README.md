@@ -2,7 +2,7 @@
 
 This directory contains three example projects: Ex1, Ex2, and Ex3. Each project includes source code files and README files providing information about the project's purpose and usage.
 
-## Ex1: manageStudents
+## Ex1: Manage Students
 
 - **Description**: A project for managing student information and use different sorting methods to filter through them.
 - **Files**:
