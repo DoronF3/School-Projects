@@ -6,10 +6,29 @@ This repository contains a collection of my school projects from various courses
 
 ### C&C++
 
-- **Last Year**
-  - [Project Name](C%26C%2B%2B/Last%20Year/Project%20Name)
-    - [File1.cpp](C%26C%2B%2B/Last%20Year/Project%20Name/File1.cpp)
-    - [File2.h](C%26C%2B%2B/Last%20Year/Project%20Name/File2.h)
+# C Exercises
+
+This directory contains three exercises: Ex1, Ex2, and Ex3. Each project includes source code files and README files providing information about the project's purpose and usage.
+
+- **[Manage Students](C/Ex1)**: A project for managing student information and using different sorting methods to filter through them.
+  
+- **[Tree Analyzer](C/Ex2)**: A project for analyzing trees and performing tree-related operations.
+  
+- **[Red-Black Tree Implementation](C/Ex3)**: A project implementing a Red-Black Tree data structure along with supporting structures.
+
+-  **[README](C/README.md)**: This README adds further details about the project.
+
+# C++ Exercises
+
+This directory contains exercises related to C++ programming.
+
+- **[Neural Network Library](CPP/Exercise%204)**: In this exercise, we focus on building essential components for neural networks.
+  
+- **[Fractal Generation and Visualization](CPP/Exercise%205)**: In this exercise, we explore fractal generation algorithms and visualization techniques.
+  
+- **[HashMap Class](CPP/Exercise%206)**: In this exercise, we delve into data structures and their practical applications.
+
+- **[README](CPP/README.md)**: This README adds further details about the project.
 
 ![#E74C3C](https://via.placeholder.com/15/E74C3C/000000?text=+) `C` ![#EC87C0](https://via.placeholder.com/15/EC87C0/000000?text=+) `C++`
 
@@ -30,7 +49,7 @@ This directory contains the files related to the final project of the Data Scien
 
 - **[Final Project Notebook](Data%20Science/main.ipynb)**: This Jupyter Notebook contains the Python code, explanations, and visualizations that were used to perform data cleaning, analysis, modeling, and any other relevant tasks
 
-- **[README](Data%20Science/README.md)**: This README adds further details about the project
+- **[README](Data%20Science/README.md)**: This README adds further details about the project.
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python` ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `Jupyter Notebook`
 
