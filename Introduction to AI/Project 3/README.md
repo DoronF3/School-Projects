@@ -133,27 +133,29 @@ To test your implementation, run the autograder:
 python autograder.py -q q7
 ```
 
-Question 8: Bridge Crossing Revisited
+### Question 8: Bridge Crossing Revisited
 In this question, you'll explore training a Q-learning agent on the BridgeGrid. Your task is to find an epsilon and a learning rate that allow the agent to reliably learn the optimal policy after a specific number of episodes. Implement your solution in the question8 function in the analysis.py file.
 
 To check your answer, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q8
-Question 9: Q-Learning and Pacman
+```
+
+### Question 9: Q-Learning and Pacman
 In this question, you'll apply Q-learning to the Pacman problem. Your task is to train a Q-learning agent to play Pacman effectively using the provided PacmanQAgent. You'll need to fine-tune learning parameters to achieve a high win rate in test games.
 
 To test your implementation, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q9
-Question 10: Approximate Q-Learning
+```
+
+### Question 10: Approximate Q-Learning
 In this question, you'll implement an approximate Q-learning agent that uses feature-based representation of states. Your task is to complete the ApproximateQAgent class, which learns weights for features of states. You'll implement methods to update feature weights and choose actions based on these weights.
 
 To test your implementation, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q10
+```
