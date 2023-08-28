@@ -44,52 +44,106 @@ In the Ghostbusters project, you'll be working with Pacman's ability to sense gh
 
 Throughout the project, you'll implement algorithms for exact and approximate inference using Bayes' Nets. The project involves challenges, so it's recommended to start early and seek assistance whenever needed.
 
-## Question 0: DiscreteDistribution Class
+## Q0: DiscreteDistribution Class
 
 In this section, you'll implement the `DiscreteDistribution` class, which is crucial for modeling belief and weight distributions. The class is an extension of Python's built-in dictionary, where keys are discrete elements and values represent the belief or weight assigned to each element.
 
-## Question 1: Observation Probability
+## Q1: Observation Probability
 
 Implement the `getObservationProb` method in the `InferenceModule` class. This method calculates the probability of a noisy distance reading given Pacman's position, the ghost's position, and other relevant information. Special cases such as when the ghost is in jail or the distance reading is None must be handled.
 
-**Testing**: To test your implementation, run the following command:
+To test your implementation, you can run the autograder using the following command:
+
 ```shell
 python3 autograder.py -q q1
 ```
 
-## Question 2: Exact Inference Observation
+## Q2: Exact Inference Observation
 
 Implement the `observeUpdate` method in the `ExactInference` class. This method updates the belief distribution over ghost positions based on observations from Pacman's sensors. The belief at each position on the map is updated after receiving a sensor reading.
 
-## Question 3: Exact Inference with Time Elapse
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q2
+```
+
+## Q3: Exact Inference with Time Elapse
 
 Implement the `elapseTime` method in the `ExactInference` class. This method updates the belief distribution over ghost positions after one time step elapses. Pacman's knowledge about the ghosts' movement patterns is used to update beliefs over time.
 
-## Question 4: Exact Inference Full Test
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q3
+```
+
+## Q4: Exact Inference Full Test
 
 Combine the `observeUpdate` and `elapseTime` methods to implement a simple greedy hunting strategy. The `GreedyBustersAgent` assumes ghosts are in their most likely positions and moves toward the closest ghost. Implement the `chooseAction` method to execute this strategy.
 
-## Question 5: Approximate Inference Initialization and Beliefs
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q4
+```
+
+## Q5: Approximate Inference Initialization and Beliefs
 
 Implement the `initializeUniformly` and `getBeliefDistribution` methods in the `ParticleFilter` class. This class tracks a single ghost's position using particles (samples) and converts particle distributions into belief distributions.
 
-## Question 6: Approximate Inference Observation
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q5
+```
+
+## Q6: Approximate Inference Observation
 
 Implement the `observeUpdate` method in the `ParticleFilter` class. This method calculates particle weights based on observations and resamples particles accordingly. Special cases such as all particles receiving zero weight must be handled.
 
-## Question 7: Approximate Inference with Time Elapse
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q6
+```
+
+## Q7: Approximate Inference with Time Elapse
 
 Implement the `elapseTime` method in the `ParticleFilter` class. This method updates particles based on the ghosts' movement model, considering their valid movements and previous positions.
 
-## Question 8: Joint Particle Filter Observation
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q7
+```
+
+## Q8: Joint Particle Filter Observation
 
 Extend the particle filtering algorithm to track multiple ghosts simultaneously. Implement the `initializeUniformly` method in the `JointParticleFilter` class to initialize particles for joint tracking.
 
-## Question 9: Joint Particle Filter Observation
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q8
+```
+
+## Q9: Joint Particle Filter Observation
 
 Implement the `observeUpdate` method in the `JointParticleFilter` class. This method performs joint observation updates for all ghost distances, weighting and resampling particles accordingly.
 
-## Question 10: Joint Particle Filter Time Elapse and Full Test
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q9
+```
+
+## Q10: Joint Particle Filter Time Elapse and Full Test
 
 Complete the `elapseTime` method in the `JointParticleFilter` class to perform joint time elapse updates for all ghosts. Implement a greedy strategy that considers the joint particle distributions to minimize the distance to the closest ghost.
 
+To test your implementation, you can run the autograder using the following command:
+
+```shell
+python3 autograder.py -q q10
+```
