@@ -31,8 +31,7 @@ It can be run for one particular test by commands of the form:
 python autograder.py -t test_cases/q2/1-bridge-grid
 ```
 
-
-## Files to Edit and Submit
+## Files to Edit
 You will fill in portions of the following files during the assignment:
 - valueIterationAgents.py: A value iteration agent for solving known MDPs.
 - qlearningAgents.py: Q-learning agents for Gridworld, Crawler, and Pacman.
@@ -46,18 +45,6 @@ Files you should read but NOT edit:
 - `featureExtractors.py`: Classes for extracting features on (state, action) pairs. Used for the approximate Q-learning agent.
 - ...
 
-## Evaluation
-Your code will be autograded for technical correctness. Please do not change the names of any provided functions or classes within the code, or you will wreak havoc on the autograder. However, the correctness of your implementation—not the autograder's judgments—will be the final judge of your score. If necessary, we will review and grade assignments individually to ensure that you receive due credit for your work.
-
-## Academic Dishonesty
-We will be checking your code against other submissions in the class for logical redundancy. If you copy someone else's code and submit it with minor changes, we will know. These cheat detectors are quite hard to fool, so please don't try. We trust you all to submit your own work only; please don't let us down. If you do, we will pursue the strongest consequences available to us.
-
-## Getting Help
-You are not alone! If you find yourself stuck on something, contact the course staff for help. Office hours, section, and the discussion forum are there for your support; please use them. If you can't make our office hours, let us know, and we will schedule more. We want these projects to be rewarding and instructional, not frustrating and demoralizing. But, we don't know when or how to help unless you ask.
-
-## Discussion
-Please be careful not to post spoilers.
-
 ## MDPs
 To get started, run Gridworld in manual control mode, which uses the arrow keys:
 ```python
@@ -69,3 +56,86 @@ You can control many aspects of the simulation. A full list of options is availa
 ```python
 python gridworld.py -h
 ```
+
+
+### Question 1: Value Iteration
+In this question, you'll implement the Value Iteration algorithm. Your task is to complete the `ValueIterationAgent` class, which performs offline planning using the value iteration algorithm. This agent will compute k-step estimates of optimal state values and synthesize policies based on these values. Be sure to follow the guidelines provided in the project specifications to correctly implement the required methods.
+
+To test your implementation, you can run the autograder using the following command:
+
+```python
+python autograder.py -q q1
+```
+
+Question 2: Bridge Crossing Analysis
+In this question, you'll explore a grid world map called BridgeGrid and manipulate its parameters to influence the agent's behavior. Your task is to change either the discount factor or the noise parameter to make the agent prefer crossing the bridge, taking risks if necessary. Implement your solution in the question2 function in the analysis.py file.
+
+To check your answer, run the autograder:
+
+css
+Copy code
+python autograder.py -q q2
+Question 3: Policies
+In this question, you'll work with different optimal policy scenarios on a grid layout called DiscountGrid. You'll adjust the discount, noise, and living reward parameters to achieve specific policy behaviors. Your task is to find parameter settings that produce the desired policy types listed in the project specifications. Implement your solutions in the question3a through question3e functions in the analysis.py file.
+
+To check your answers, run the autograder:
+
+css
+Copy code
+python autograder.py -q q3
+Question 4: Asynchronous Value Iteration
+In this question, you'll implement a variant of the value iteration algorithm called asynchronous value iteration. You'll update one state's value in each iteration instead of doing a batch-style update. Your task is to complete the AsynchronousValueIterationAgent class to perform value iteration using this approach.
+
+To test your implementation, run the autograder:
+
+css
+Copy code
+python autograder.py -q q4
+Question 5: Prioritized Sweeping Value Iteration
+In this question, you'll implement the prioritized sweeping algorithm for value iteration. Your task is to complete the PrioritizedSweepingValueIterationAgent class to perform prioritized updates of state values based on their priorities. Follow the provided algorithm to correctly implement the agent.
+
+To test your implementation, run the autograder:
+
+css
+Copy code
+python autograder.py -q q5
+Question 6: Q-Learning
+In this question, you'll implement the Q-learning algorithm, which allows the agent to learn by trial and error from interactions with the environment. Your task is to complete the QLearningAgent class, implementing methods for updating Q-values and choosing actions based on the learned values. Be sure to follow the provided algorithm and guidelines for proper implementation.
+
+To test your implementation, run the autograder:
+
+css
+Copy code
+python autograder.py -q q6
+Question 7: Epsilon Greedy
+In this question, you'll implement epsilon-greedy action selection for the Q-learning agent. Your task is to modify the getAction method in the QLearningAgent class to choose random actions an epsilon fraction of the time and follow the best Q-values otherwise.
+
+To test your implementation, run the autograder:
+
+css
+Copy code
+python autograder.py -q q7
+Question 8: Bridge Crossing Revisited
+In this question, you'll explore training a Q-learning agent on the BridgeGrid. Your task is to find an epsilon and a learning rate that allow the agent to reliably learn the optimal policy after a specific number of episodes. Implement your solution in the question8 function in the analysis.py file.
+
+To check your answer, run the autograder:
+
+css
+Copy code
+python autograder.py -q q8
+Question 9: Q-Learning and Pacman
+In this question, you'll apply Q-learning to the Pacman problem. Your task is to train a Q-learning agent to play Pacman effectively using the provided PacmanQAgent. You'll need to fine-tune learning parameters to achieve a high win rate in test games.
+
+To test your implementation, run the autograder:
+
+css
+Copy code
+python autograder.py -q q9
+Question 10: Approximate Q-Learning
+In this question, you'll implement an approximate Q-learning agent that uses feature-based representation of states. Your task is to complete the ApproximateQAgent class, which learns weights for features of states. You'll implement methods to update feature weights and choose actions based on these weights.
+
+To test your implementation, run the autograder:
+
+css
+Copy code
+python autograder.py -q q10
