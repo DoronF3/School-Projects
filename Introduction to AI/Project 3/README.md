@@ -43,7 +43,19 @@ Files you should read but NOT edit:
 - `util.py`: Utilities, including util.Counter, which is particularly useful for Q-learners.
 - `gridworld.py`: The Gridworld implementation.
 - `featureExtractors.py`: Classes for extracting features on (state, action) pairs. Used for the approximate Q-learning agent.
-- ...
+
+Files you can ignore:
+- `environment.py`: Abstract class for general reinforcement learning environments. Used by gridworld.py .
+- `graphicsGridworldDisplay.py`: Gridworld graphical display.
+- `graphicsUtils.py`: Graphics utilities.
+- `textGridworldDisplay.py`: Plug-in for the Gridworld text interface.
+- `crawler.py`: The crawler code and test harness. You will run this but not edit it.
+- `graphicsCrawlerDisplay.py`: GUI for the crawler robot.
+- `autograder.py`: Project autograder
+- `testParser.py`: Parses autograder test and solution files
+- `testClasses.py`: General autograding test classes
+- `test_cases/`: Directory containing the test cases for each question
+- `reinforcementTestClasses.py`: Project 3 specific autograding test classes
 
 ## MDPs
 To get started, run Gridworld in manual control mode, which uses the arrow keys:
