@@ -45,3 +45,12 @@ Implement the alpha-beta pruning technique in the `AlphaBetaAgent` class in `mul
 ```python
 python pacman.py -p AlphaBetaAgent -l smallClassic -a depth=3
 ```
+
+### Q4: Expectimax
+Implement the `ExpectimaxAgent` class in `multiAgents.py`, which models probabilistic behavior of agents who may make suboptimal choices. Test your agent on different layouts, for example:
+```python
+python pacman.py -p ExpectimaxAgent -l minimaxClassic -a depth=3
+```
+
+### Q5: Evaluation Function
+Design a better evaluation function for Pacman in the `betterEvaluationFunction` function in `multiAgents.py`. The function should evaluate states rather than actions. Test your evaluation function on different layouts and game scenarios.
