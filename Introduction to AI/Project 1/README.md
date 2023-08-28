@@ -69,12 +69,21 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
 
 ### Q6: Corners Problem: Heuristic
 - Implement a consistent heuristic for the `CornersProblem` in `cornersHeuristic` function.
-- Test your heuristic using A* search on different mazes.
+- Test your heuristic using A* search on different mazes. For example:
+  ```python
+  python pacman.py -l mediumCorners -p AStarCornersAgent -z 0.5
+  ```
 
 ### Q7: Eating All The Dots: Heuristic
 - Implement a consistent heuristic for the `FoodSearchProblem` in `foodHeuristic` function.
-- Test your heuristic using A* search on different mazes.
+- Test your heuristic using A* search on different mazes. For example:
+  ```python
+  python pacman.py -l trickySearch -p AStarFoodSearchAgent
+  ```
 
 ### Q8: Suboptimal Search
 - Implement the `findPathToClosestDot` function in `searchAgents.py`.
-- Test your ClosestDotSearchAgent using different mazes.
+- Test your ClosestDotSearchAgent using different mazes. For example:
+  ```python
+  python pacman.py -l bigSearch -p ClosestDotSearchAgent -z .5
+  ```
