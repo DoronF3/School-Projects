@@ -33,9 +33,9 @@ python autograder.py -t test_cases/q2/1-bridge-grid
 
 ## Files to Edit
 You will fill in portions of the following files during the assignment:
-- valueIterationAgents.py: A value iteration agent for solving known MDPs.
-- qlearningAgents.py: Q-learning agents for Gridworld, Crawler, and Pacman.
-- analysis.py: A file to put your answers to questions given in the project.
+- `valueIterationAgents.py`: A value iteration agent for solving known MDPs.
+- `qlearningAgents.py`: Q-learning agents for Gridworld, Crawler, and Pacman.
+- `analysis.py`: A file to put your answers to questions given in the project.
 
 Files you should read but NOT edit:
 - `mdp.py`: Defines methods on general MDPs.
