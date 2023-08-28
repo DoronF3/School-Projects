@@ -34,23 +34,38 @@ python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
 
 ### Q1: Depth First Search
 - Implement the depth-first search (DFS) algorithm in `depthFirstSearch` function in `search.py`.
-- Test your implementation using different mazes.
+- Test your implementation using different mazes. For example:
+  ```python
+  python pacman.py -l tinyMaze -p SearchAgent -a fn=tinyMazeSearch
+  ```
 
 ### Q2: Breadth First Search
 - Implement the breadth-first search (BFS) algorithm in `breadthFirstSearch` function in `search.py`.
-- Test your implementation on different mazes.
+- Test your implementation on different mazes. For example:
+  ```python
+  python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+  ```
 
 ### Q3: Uniform Cost Search
 - Implement the uniform-cost search (UCS) algorithm in `uniformCostSearch` function in `search.py`.
-- Test your implementation on different mazes.
+- Test your implementation on different mazes. For example:
+  ```python
+  python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=ucs
+  ```
 
 ### Q4: A* Search
 - Implement A* graph search in the `aStarSearch` function in `search.py`.
-- Test your implementation on different mazes.
+- Test your implementation on different mazes. For example:
+  ```python
+  python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+  ```
 
 ### Q5: Corners Problem: Representation
 - Implement the `CornersProblem` search problem in `searchAgents.py`.
-- Test your implementation on different mazes.
+- Test your implementation on different mazes. For example:
+  ```python
+  python pacman.py -l tinyCorners -p SearchAgent -a fn=bfs,prob=CornersProblem
+  ```
 
 ### Q6: Corners Problem: Heuristic
 - Implement a consistent heuristic for the `CornersProblem` in `cornersHeuristic` function.
