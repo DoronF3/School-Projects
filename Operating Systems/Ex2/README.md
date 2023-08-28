@@ -2,7 +2,7 @@
 
 ## Thread.cpp
 
-This file (`Thread.cpp`) contains the implementation of the `Thread` class and related functions. The `Thread` class represents a thread object and provides methods for initializing, managing, and interacting with threads.
+This file contains the implementation of the `Thread` class and related functions. The `Thread` class represents a thread object and provides methods for initializing, managing, and interacting with threads.
 
 ### Contents
 
@@ -18,7 +18,7 @@ This file (`Thread.cpp`) contains the implementation of the `Thread` class and r
 
 ## Thread.h
 
-This file (`Thread.h`) contains the header file for the `Thread` class and related declarations.
+This file contains the header file for the `Thread` class and related declarations.
 
 ### Contents
 
@@ -27,7 +27,7 @@ This file (`Thread.h`) contains the header file for the `Thread` class and relat
 
 ## Uthreads.cpp
 
-This file (`Uthreads.cpp`) contains the implementation of the user-level thread library functions, including thread creation, termination, blocking, resuming, and various utility functions for thread management.
+This file contains the implementation of the user-level thread library functions, including thread creation, termination, blocking, resuming, and various utility functions for thread management.
 
 ### Contents
 
