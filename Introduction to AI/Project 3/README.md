@@ -79,54 +79,60 @@ To test your implementation, you can run the autograder using the following comm
 python autograder.py -q q1
 ```
 
-Question 2: Bridge Crossing Analysis
+### Question 2: Bridge Crossing Analysis
 In this question, you'll explore a grid world map called BridgeGrid and manipulate its parameters to influence the agent's behavior. Your task is to change either the discount factor or the noise parameter to make the agent prefer crossing the bridge, taking risks if necessary. Implement your solution in the question2 function in the analysis.py file.
 
 To check your answer, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q2
-Question 3: Policies
+```
+
+### Question 3: Policies
 In this question, you'll work with different optimal policy scenarios on a grid layout called DiscountGrid. You'll adjust the discount, noise, and living reward parameters to achieve specific policy behaviors. Your task is to find parameter settings that produce the desired policy types listed in the project specifications. Implement your solutions in the question3a through question3e functions in the analysis.py file.
 
 To check your answers, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q3
-Question 4: Asynchronous Value Iteration
+```
+
+### Question 4: Asynchronous Value Iteration
 In this question, you'll implement a variant of the value iteration algorithm called asynchronous value iteration. You'll update one state's value in each iteration instead of doing a batch-style update. Your task is to complete the AsynchronousValueIterationAgent class to perform value iteration using this approach.
 
 To test your implementation, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q4
-Question 5: Prioritized Sweeping Value Iteration
+```
+
+### Question 5: Prioritized Sweeping Value Iteration
 In this question, you'll implement the prioritized sweeping algorithm for value iteration. Your task is to complete the PrioritizedSweepingValueIterationAgent class to perform prioritized updates of state values based on their priorities. Follow the provided algorithm to correctly implement the agent.
 
 To test your implementation, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q5
-Question 6: Q-Learning
+```
+
+### Question 6: Q-Learning
 In this question, you'll implement the Q-learning algorithm, which allows the agent to learn by trial and error from interactions with the environment. Your task is to complete the QLearningAgent class, implementing methods for updating Q-values and choosing actions based on the learned values. Be sure to follow the provided algorithm and guidelines for proper implementation.
 
 To test your implementation, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q6
-Question 7: Epsilon Greedy
+```
+
+### Question 7: Epsilon Greedy
 In this question, you'll implement epsilon-greedy action selection for the Q-learning agent. Your task is to modify the getAction method in the QLearningAgent class to choose random actions an epsilon fraction of the time and follow the best Q-values otherwise.
 
 To test your implementation, run the autograder:
 
-css
-Copy code
+```python
 python autograder.py -q q7
+```
+
 Question 8: Bridge Crossing Revisited
 In this question, you'll explore training a Q-learning agent on the BridgeGrid. Your task is to find an epsilon and a learning rate that allow the agent to reliably learn the optimal policy after a specific number of episodes. Implement your solution in the question8 function in the analysis.py file.
 
