@@ -60,3 +60,12 @@ Please be careful not to post spoilers.
 
 ## MDPs
 To get started, run Gridworld in manual control mode, which uses the arrow keys:
+```python
+python gridworld.py -m
+```
+
+You will see the two-exit layout from class. The blue dot is the agent. Note that when you press up, the agent only actually moves north 80% of the time. Such is the life of a Gridworld agent!
+You can control many aspects of the simulation. A full list of options is available by running:
+```python
+python gridworld.py -h
+```
