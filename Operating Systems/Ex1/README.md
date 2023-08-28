@@ -1,4 +1,4 @@
-# Ex 1: OSM Time Measurement
+# Exercise 1: OSM Time Measurement
 
 This code provides functions for measuring the time taken by various operations using the OSM (Operating Systems and Multiprogramming) library. The OSM library provides macros for performing specific operations that can be measured to evaluate time performance.
 
