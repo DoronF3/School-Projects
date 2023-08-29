@@ -19,14 +19,14 @@ This directory contains a collection of exercises related to introduction to AI 
   - `bustersAgents.py`: Agents for playing the Ghostbusters variant of Pacman.
   - `inference.py`: Code for tracking ghosts over time using their sounds.
 
-### Project 3: Reinforcement Learning
+## Project 3: Reinforcement Learning
 - **Description**: In this project, you will implement value iteration and Q-learning algorithms. You will test your agents on various scenarios, including Gridworld, a simulated robot controller (Crawler), and Pacman.
 - **Key Files**:
   - `valueIterationAgents.py`: A value iteration agent for solving known MDPs.
   - `qlearningAgents.py`: Q-learning agents for Gridworld, Crawler, and Pacman.
   - `analysis.py`: File to put your answers to questions given in the project.
 
-### Project 4: Ghostbusters
+## Project 4: Ghostbusters
 - **Description**: In this project, you'll work with Pacman's ability to sense ghost positions using sonar. Your task is to locate and eat invisible ghosts by implementing algorithms for exact and approximate inference using Bayes' Nets.
 - **Key Files**:
   - `bustersAgents.py`: Agents for playing the Ghostbusters variant of Pacman.
