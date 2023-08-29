@@ -1,4 +1,4 @@
-# Customer Segmentation Analysis README
+# Customer Segmentation Analysis
 
 This README provides an overview of the customer segmentation analysis code, which aims to segment customers based on their attributes using K-means clustering.
 
