@@ -1,6 +1,6 @@
 # Introduction to AI projects
 
-This directory contains a collection of exercises related to introduction to AI course projects. Each exercise focuses on different concepts and challenges in the field of operating systems.
+This directory contains a collection of exercises related to introduction to AI course projects. Each exercise focuses on different concepts and challenges in the field of AI.
 
 ## Project 1: Search
 
@@ -26,7 +26,7 @@ This directory contains a collection of exercises related to introduction to AI 
   - `qlearningAgents.py`: Q-learning agents for Gridworld, Crawler, and Pacman.
   - `analysis.py`: File to put your answers to questions given in the project.
 
-## Project 4: Ghostbusters
+## Project 4: Bayesian Networks
 - **Description**: In this project, you'll work with Pacman's ability to sense ghost positions using sonar. Your task is to locate and eat invisible ghosts by implementing algorithms for exact and approximate inference using Bayes' Nets.
 - **Key Files**:
   - `bustersAgents.py`: Agents for playing the Ghostbusters variant of Pacman.
