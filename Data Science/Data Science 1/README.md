@@ -1,4 +1,4 @@
-# NBA Data Analysis
+# Exercise 1: NBA Data Analysis
 
 This README provides an overview of the NBA data analysis code, which retrieves and processes NBA game and player statistics.
 
