@@ -64,10 +64,17 @@ This directory contains the files related to the final project of the Data Scien
 
 ### Introduction to AI
 
-- **Last Year**
-  - [Project Name](Introduction%20to%20AI/Last%20Year/Project%20Name)
-    - [Code.py](Introduction%20to%20AI/Last%20Year/Project%20Name/Code.py)
-    - [Report.md](Introduction%20to%20AI/Last%20Year/Project%20Name/Report.md)
+This directory contains a collection of exercises related to introduction to AI course projects. Each exercise focuses on different concepts and challenges in the field of AI.
+
+- **[Search](Introduction%20to%20AI/Project%201)**: In this project, you will work on implementing search algorithms to guide Pacman through different scenarios in a maze world. You will develop and apply search algorithms such as Depth First Search, Breadth First Search, Uniform Cost Search, and A* Search to solve various challenges.
+
+- **[Multi-Agent Search](Introduction%20to%20AI/Project%202)**: In this project, you will design agents for the classic version of Pacman, including ghosts. You will implement the minimax and expectimax search algorithms and work on designing a better evaluation function to enhance Pacman's performance.
+
+- **[Reinforcement Learning](Introduction%20to%20AI/Project%203)**: In this project, you will implement value iteration and Q-learning algorithms. You will test your agents on various scenarios, including Gridworld, a simulated robot controller (Crawler), and Pacman.
+
+- **[Bayesian Networks](Introduction%20to%20AI/Project%204)**: In this project, you'll work with Pacman's ability to sense ghost positions using sonar. Your task is to locate and eat invisible ghosts by implementing algorithms for exact and approximate inference using Bayes' Nets.
+
+- **[README](Introduction%20to%20AI/README.md)**: This README adds further details about the project.
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Python`
 
