@@ -50,13 +50,15 @@ This directory contains assignments related to database management.
 
 ### Data Science
 
-This directory contains the files related to the final project of the Data Science course. The project focuses on understanding what impacts the number of peak concurrent users (CCU) of games and software on the Steam platform.
+This directory contains the files related to the projects of the Data Science course. The projects focus on different topics of data science and ML.
 
-- **[Data Science Final Presentation](Data%20Science/Data%20Science%20Final%20Project.pptx)**: This PowerPoint presentation summarizes the key findings, insights, methodologies, and results of the data analysis conducted as part of the project
+- **[NBA Data Analysis](Data%20Science/Data%20Science%201)**: The project retrieves and processes NBA game and player statistics. The provided Python script performs tasks such as downloading NBA game data, converting JSON data to CSV format, merging game data and player statistics, and performing data preprocessing and analysis.
+- 
+- **[Customer Retention Prediction](Data%20Science/Data%20Science%202)**: The project focuses on predicting customer retention using machine learning models. The provided Python script trains classification models (Logistic Regression, Decision Tree, Random Forest), evaluates their performance, performs hyperparameter tuning, and analyzes feature importance.
 
-- **[Data Science Final Paper](Data%20Science/Data%20Science%20Final.docx)**: This Word document elaborates on the project's background, objectives, data sources, methodology, analysis techniques, results, and conclusions
+- **[Customer Segmentation Analysis](Data%20Science/Data%20Science%203)**: The project aims to segment customers based on their attributes using K-means clustering. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
 
-- **[Final Project Notebook](Data%20Science/main.ipynb)**: This Jupyter Notebook contains the Python code, explanations, and visualizations that were used to perform data cleaning, analysis, modeling, and any other relevant tasks
+- **[Final Project](Data%20Science/Final%20Project)**: This directory contains the files related to the final project of the Data Science course. The project focuses on understanding factors affecting peak concurrent users on the Steam platform. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
 
 - **[README](Data%20Science/README.md)**: This README adds further details about the project.
 
