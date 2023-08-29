@@ -53,7 +53,7 @@ This directory contains assignments related to database management.
 This directory contains the files related to the projects of the Data Science course. The projects focus on different topics of data science and ML.
 
 - **[NBA Data Analysis](Data%20Science/Data%20Science%201)**: The project retrieves and processes NBA game and player statistics. The provided Python script performs tasks such as downloading NBA game data, converting JSON data to CSV format, merging game data and player statistics, and performing data preprocessing and analysis.
-- 
+
 - **[Customer Retention Prediction](Data%20Science/Data%20Science%202)**: The project focuses on predicting customer retention using machine learning models. The provided Python script trains classification models (Logistic Regression, Decision Tree, Random Forest), evaluates their performance, performs hyperparameter tuning, and analyzes feature importance.
 
 - **[Customer Segmentation Analysis](Data%20Science/Data%20Science%203)**: The project aims to segment customers based on their attributes using K-means clustering. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
