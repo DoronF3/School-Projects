@@ -1,4 +1,4 @@
-# Customer Retention Prediction README
+# Exercise 2:Customer Retention Prediction
 
 This README provides an overview of the customer retention prediction code, which aims to predict customer retention using machine learning models.
 
