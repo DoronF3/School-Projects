@@ -6,9 +6,9 @@ Welcome to the Data Science Projects directory! This directory contains various 
 
 - **Description**: The "NBA Data Analysis" project retrieves and processes NBA game and player statistics. The provided Python script performs tasks such as downloading NBA game data, converting JSON data to CSV format, merging game data and player statistics, and performing data preprocessing and analysis.
 - **Files**:
-  - `Answers.docx`
-  - `README.md`
-  - `main.py`
+  - `Answers.docx`: Document containing answers to project-related questions.
+  - `README.md`: Detailed overview of the project and instructions.
+  - `main.py`: Python script for data retrieval, processing, and analysis.
 
 **Usage**:
 1. Ensure you have the required libraries installed. You can use the following command to install them:
@@ -25,10 +25,10 @@ pip install numpy pandas requests
 
 - **Description**: The "Customer Retention Prediction" project focuses on predicting customer retention using machine learning models. The provided Python script trains classification models (Logistic Regression, Decision Tree, Random Forest), evaluates their performance, performs hyperparameter tuning, and analyzes feature importance.
 - **Files**:
-  - `Data Science 2.docx`
-  - `README.md`
-  - `main.py`
-  - `RetentionBusinessCustomers.csv`
+  - `Data Science 2.docx`: Document containing detailed project description, methodology, and results.
+  - `README.md`: Overview of the project and instructions.
+  - `main.py`: Python script for data preprocessing, modeling, and analysis.
+  - `RetentionBusinessCustomers.csv`: Dataset containing customer retention data.
 
 **Usage**:
 1. Ensure you have the required libraries installed. You can use the following command to install them:
@@ -46,10 +46,10 @@ pip install numpy pandas matplotlib scikit-learn tabulate
 
 - **Description**: The "Customer Segmentation Analysis" project aims to segment customers based on their attributes using K-means clustering. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
 - **Files**:
-  - `Data Science 3.docx`
-  - `README.md`
-  - `main.py`
-  - `JustBuy_data.csv`
+  - `Data Science 3.docx`: Document containing detailed project description, methodology, and results.
+  - `README.md`: Overview of the project and instructions.
+  - `main.py`: Python script for data preprocessing, clustering, and analysis.
+  - `JustBuy_data.csv`: Dataset containing customer attributes.
 
 **Usage**:
 1. Ensure you have the required libraries installed. You can use the following command to install them:
@@ -67,9 +67,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 
 - **Description**: This repository contains the files related to the final project of the Data Science course. The project focuses on understanding factors affecting peak concurrent users on the Steam platform. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
 - **Files**:
-  - `Data Science Final Presentation.pptx`
-  - `Data Science Final.docx`
-  - `Notebook.ipynb`
+  - `Data Science Final Presentation.pptx`: PowerPoint presentation summarizing project findings.
+  - `Data Science Final.docx`: Detailed report of the final project.
+  - `Notebook.ipynb`: Jupyter Notebook with code, analysis, and visualizations.
 
 **Usage**:
 1. Ensure you have the required libraries installed. You can use the following command to install them:
