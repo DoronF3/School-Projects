@@ -68,13 +68,13 @@ This directory contains the files related to the projects of the Data Science co
 
 This directory contains the files related to the projects of the Machine Learning course. The projects focus on different topics of ML.
 
-- ****: The project retrieves and processes NBA game and player statistics. The provided Python script performs tasks such as downloading NBA game data, converting JSON data to CSV format, merging game data and player statistics, and performing data preprocessing and analysis.
+- ****: The project 
 
-- ****: The project focuses on predicting customer retention using machine learning models. The provided Python script trains classification models (Logistic Regression, Decision Tree, Random Forest), evaluates their performance, performs hyperparameter tuning, and analyzes feature importance.
+- ****: The project 
 
-- ****: The project aims to segment customers based on their attributes using K-means clustering. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
+- ****: The project
 
-- ****: This directory contains the files related to the final project of the Data Science course. The project focuses on understanding factors affecting peak concurrent users on the Steam platform. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
+- ****: This directory contains the files related to the final project of the Machine Learning course. The project 
 
 - ****: This README adds further details about the project.
 
@@ -84,13 +84,13 @@ This directory contains the files related to the projects of the Machine Learnin
 
 This directory contains the files related to the projects of the Financial Analytics course. The projects focus on different applications of ML algorithms to analyze various classes of financial tools.
 
-- ****: The project retrieves and processes NBA game and player statistics. The provided Python script performs tasks such as downloading NBA game data, converting JSON data to CSV format, merging game data and player statistics, and performing data preprocessing and analysis.
+- ****: The project 
 
-- ****: The project focuses on predicting customer retention using machine learning models. The provided Python script trains classification models (Logistic Regression, Decision Tree, Random Forest), evaluates their performance, performs hyperparameter tuning, and analyzes feature importance.
+- ****: The project 
 
-- ****: The project aims to segment customers based on their attributes using K-means clustering. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
+- ****: The project
 
-- ****: This directory contains the files related to the final project of the Data Science course. The project focuses on understanding factors affecting peak concurrent users on the Steam platform. The provided Python script performs data preprocessing, outlier handling, data visualization, feature scaling, K-means clustering, and cluster analysis.
+- ****: The project  
 
 - ****: This README adds further details about the project.
 
